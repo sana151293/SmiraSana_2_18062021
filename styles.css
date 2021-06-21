@@ -1,0 +1,31 @@
+.entête 
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   
+}
+
+.hébergements
+{
+color: #0065FC;
+
+}
+.activités
+{
+    color: black;
+}
+.inscrire
+{
+    color: #0065FC;
+    font-weight: bold;
+}
+
+h1
+{
+font-weight: bold;
+}
+.second
+{
+    line-height: 5px;
+}
