@@ -41,29 +41,59 @@ font-weight: bold;
 .third 
 {
     background-color:#F2F2F2 ;    
-    height: 20px;
+    height: 30px;
+    border-collapse: collapse;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 30px;
+    
+    
    
 }
+
 td
 {
- border:1px solid #F2F2F2;
-border-collapse: collapse;
-border-radius: 10px;
-height: 10px;
+ border:none;
+height: 30px;
+border-collapse:collapse;
 }
 
     
 .saisie
 {
 color: #F2F2F2;
+border-color: #F2F2F2;
+height: 30px;
+border-collapse: collapse;
  }
-.fourth
-{
-    background-color:#0065FC ;
-}
+
 .bouton
 {
     background-color:#0065FC ;
-    border-radius: 10px;
     color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 30px;
+    border-collapse: collapse;
+}
+.i
+{
+    color: #0065FC;
+    
+}
+.filtre
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+
+}
+.tddeux
+{
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+ 
 }
