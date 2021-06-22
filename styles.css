@@ -1,24 +1,33 @@
 .entête 
 {
    display: flex;
-   flex-direction: row;
    justify-content: flex-end;
+   gap: 2%;
+   margin-top: 10px;
+   
    
 }
 
 .hébergements
 {
 color: #0065FC;
+margin-left: auto;
+margin-top: 10px;
 
 }
 .activités
 {
     color: black;
+    margin-top: 10px;
+    margin: 10px;
 }
 .inscrire
 {
-    color: #0065FC;
+    color:#0065FC ;
     font-weight: bold;
+    margin-top: 10px;
+    margin: 10px;
+   
 }
 
 h1
@@ -28,4 +37,33 @@ font-weight: bold;
 .second
 {
     line-height: 5px;
+}
+.third 
+{
+    background-color:#F2F2F2 ;    
+    height: 20px;
+   
+}
+td
+{
+ border:1px solid #F2F2F2;
+border-collapse: collapse;
+border-radius: 10px;
+height: 10px;
+}
+
+    
+.saisie
+{
+color: #F2F2F2;
+ }
+.fourth
+{
+    background-color:#0065FC ;
+}
+.bouton
+{
+    background-color:#0065FC ;
+    border-radius: 10px;
+    color: white;
 }
