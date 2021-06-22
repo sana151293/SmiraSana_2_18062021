@@ -1,11 +1,11 @@
-.entête 
+.entête
 {
    display: flex;
    justify-content: flex-end;
    gap: 2%;
    margin-top: 10px;
-   
-   
+
+
 }
 
 .hébergements
@@ -27,7 +27,7 @@ margin-top: 10px;
     font-weight: bold;
     margin-top: 10px;
     margin: 10px;
-   
+
 }
 
 h1
@@ -38,17 +38,17 @@ font-weight: bold;
 {
     line-height: 5px;
 }
-.third 
+.third
 {
-    background-color:#F2F2F2 ;    
+    background-color:#F2F2F2 ;
     height: 30px;
     border-collapse: collapse;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     width: 30px;
-    
-    
-   
+
+
+
 }
 
 td
@@ -58,13 +58,14 @@ height: 30px;
 border-collapse:collapse;
 }
 
-    
+
 .saisie
 {
 color: #F2F2F2;
 border-color: #F2F2F2;
 height: 30px;
 border-collapse: collapse;
+border-left: hidden;
  }
 
 .bouton
@@ -75,25 +76,53 @@ border-collapse: collapse;
     border-top-right-radius: 10px;
     height: 30px;
     border-collapse: collapse;
+    border-right: hidden;
+    outline: none;
 }
 .i
 {
     color: #0065FC;
-    
-}
-.filtre
-{
-    display: flex;
-    flex-direction: row;
-    justify-content:start;
+
 
 }
+
+.search-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-logo {
+    height: 20px;
+    padding: 5px;
+    background-color: gray;
+}
+
+.circle
+{
+    display: block;
+    background-color:#DEEBFF ;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+}
+
 .tddeux
 {
     border: 1px solid black;
     border-radius: 30px;
+
+}
+
+
+.flex-container {
     display: flex;
-    align-items: center; 
-    justify-content: space-around;
- 
 }

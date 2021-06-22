@@ -1,75 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <p>
-<!--            <img src="file:///C:/Users/user_02/Documents/projet2/images/Reservia.svg" alt="logo"/> -->
-                    <div class="entête">
-                    <img src="./images/logoreservia.png" alt="logo" height="10%" width="10%"/>
-                    <div class="hébergements">Herbergements</div>
-                    <div class="activités"> Activités</div>
-                    <div class="inscrire">S'inscrire</div>
-                    </div>
-                 </div>
-         </p>
-    </head>
 
-    <body>
-        <p> <div class="second">
-            <h2>Trouvez votre hébergements pour des vacances de rêve</h2>
-                 <br/> En plein centre ville ou en pleine nature</div>
-        </p><table>
-               <tr>
-                <td class="third">
-                <form method="search" action="traitement.php">
-                <img src="./images/position.png" alt="position logo" height="15px" class="third"/></td>
-                <td > <input type="search" class="saisie"/> </td>
-                <td> <input type="submit" class="bouton"  value="rechercher"></td>
-        </tr>
-             </table>
-           
-        </p> 
-        </form>
-        <p> 
-            Filtres
-            <script src="https://kit.fontawesome.com/a78cda1ca5.js" crossorigin="anonymous"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <p>
+        <!--            <img src="file:///C:/Users/user_02/Documents/projet2/images/Reservia.svg" alt="logo"/> -->
+    <div class="entête">
+        <img src="./images/logoreservia.png" alt="logo" height="10%" width="10%" />
+        <div class="hébergements">Herbergements</div>
+        <div class="activités"> Activités</div>
+        <div class="inscrire">S'inscrire</div>
+    </div>
+    </div>
+    </p>
+</head>
 
-            <i class="fas fa-money-bill-wave"></i> économique
-         <i class="fas fa-child"></i> Familial
-          <i class="fas fa-heart"> </i> Romantique
-           <i class="fas fa-dog"></i> Animaux autorisés 
-        </p>
-        <p>
-            <br/> <i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville
-        </p>
-        <section id="hébergemnts">
-            <p>
-         <h2> Hébergements à Marseille </h2>
-         <br/> <img src="./images/logement1.jpg" alt="logement1" height="10%" width="10%">
-         <img src="./images/logement2.jpg" alt="logement2" height="10%" width="10%">
-         <img src="./images/logement3.jpg" alt="logement3" height="10%" width="10%">
-         <br/> Auberge la cannebière 
-         Hôtel du port 
-         Hôtel les mouettes
-         <br/> Nuit à partir de 25€
-         Nuit à partir de 52€
-         Nuit à partir de 76€
-        </p>
-        <p>
-            <img src="./images/logement4.jpg" alt="logement4" height="10%" width="10%">
-            <img src="./images/logement5.jpg" alt="logement5" height="10%" width="10%">
-            <img src="./images/logement6.jpg" alt="logement6" height="10%" width="10%">
-            <br/> Hôtel de la mer
-            Auberge le Panier
-            Hôtel chez Amina
-            <br/> Nuit à partir de 46€
-            Nuit à partir de 23€
-            Nuit à partir de 96€
-                </p>
-        </section>
-        <section id="plus populaire">
-            <h2>Les plus populaires </h2>
-        </section>
+<body>
+    <p>
+    <div class="second">
+        <h2>Trouvez votre hébergements pour des vacances de rêve</h2>
+        <br /> En plein centre ville ou en pleine nature
+    </div>
+    </p>
+<!--     <table> -->
+<!--         <tr> -->
+<!--             <td class="third"> -->
+<!--                 <form method="search" action="traitement.php"> -->
+<!--                     <img src="./images/position.png" alt="position logo" height="15px" /> -->
+<!--             </td> -->
+<!--             <td> <input type="search" class="saisie" /> </td> -->
+<!--             <td> <input type="submit" class="bouton" value="rechercher"></td> -->
+<!--         </tr> -->
+<!--     </table> -->
+<!--      -->
+        <div class="flex-container">
+            <div class="search-logo-container">
+                <img class="search-logo" src="./images/position.png" alt="position logo"/>
+            </div>
+            <div>
+                <input type="search" class="saisie" />
+            </div>
+                <input type="submit" class="bouton" value="rechercher">
+        </div>
 
-    </body>
+<!--     </p> -->
+<!--     </form> -->
+<!--     <p> -->
+<!--     <table> -->
+<!--         <tr> -->
+<!--             <td>Filtres</td> -->
+<!--             <div class="i"> -->
+<!--                 <td class="tddeux"> -->
+<!--                     <div class="i"> -->
+<!--                         <figure class="circle"> <i class="fas fa-money-bill-wave"></i></figure> -->
+<!--                     </div>économique -->
+<!--                 </td> -->
+<!--                 <td class="tddeux"> -->
+<!--                     <div class="i"> -->
+<!--                         <figure class="circle"><i class="fas fa-child"></i></figure> -->
+<!--                     </div> Familial -->
+<!--                 </td> -->
+<!--                 <td class="tddeux"> -->
+<!--                     <div class="i"> -->
+<!--                         <figure class="circle"> <i class="fas fa-heart"> </i> </figure> -->
+<!--                     </div>Romantique -->
+<!--                 </td> -->
+<!--                 <td class="tddeux"> -->
+<!--                     <div class="i"> -->
+<!--                         <figure class="circle"> <i class="fas fa-dog"></i></figure> -->
+<!--                     </div> Animaux autorisés -->
+<!--                 </td> -->
+<!--         </tr> -->
+<!--     </table> -->
+<!--     </p> -->
+<!--     <p> -->
+<!--         <br /> <i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville -->
+<!--     </p> -->
+<!--     <section id="hébergemnts"> -->
+<!--         <p> -->
+<!--         <h2> Hébergements à Marseille </h2> -->
+<!--         <br /> <img src="./images/logement1.jpg" alt="logement1" height="10%" width="10%"> -->
+<!--         <img src="./images/logement2.jpg" alt="logement2" height="10%" width="10%"> -->
+<!--         <img src="./images/logement3.jpg" alt="logement3" height="10%" width="10%"> -->
+<!--         <br /> Auberge la cannebière -->
+<!--         Hôtel du port -->
+<!--         Hôtel les mouettes -->
+<!--         <br /> Nuit à partir de 25€ -->
+<!--         Nuit à partir de 52€ -->
+<!--         Nuit à partir de 76€ -->
+<!--         </p> -->
+<!--         <p> -->
+<!--             <img src="./images/logement4.jpg" alt="logement4" height="10%" width="10%"> -->
+<!--             <img src="./images/logement5.jpg" alt="logement5" height="10%" width="10%"> -->
+<!--             <img src="./images/logement6.jpg" alt="logement6" height="10%" width="10%"> -->
+<!--             <br /> Hôtel de la mer -->
+<!--             Auberge le Panier -->
+<!--             Hôtel chez Amina -->
+<!--             <br /> Nuit à partir de 46€ -->
+<!--             Nuit à partir de 23€ -->
+<!--             Nuit à partir de 96€ -->
+<!--         </p> -->
+<!--     </section> -->
+<!--     <section id="plus populaire"> -->
+<!--         <h2>Les plus populaires </h2> -->
+<!--     </section> -->
+
+    <script src="https://kit.fontawesome.com/a78cda1ca5.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
