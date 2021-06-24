@@ -51,14 +51,6 @@ font-weight: bold;
 
 }
 
-td
-{
- border:none;
-height: 30px;
-border-collapse:collapse;
-}
-
-
 .saisie
 {
 color: #F2F2F2;
@@ -66,6 +58,7 @@ border-color: #F2F2F2;
 height: 30px;
 border-collapse: collapse;
 border-left: hidden;
+border: 1px solid #F2F2F2;
  }
 
 .bouton
@@ -76,26 +69,24 @@ border-left: hidden;
     border-top-right-radius: 10px;
     height: 30px;
     border-collapse: collapse;
-    border-right: hidden;
+    border: hidden;
     outline: none;
-}
-.i
-{
-    color: #0065FC;
-
-
 }
 
 .search-logo-container {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .search-logo {
     height: 20px;
     padding: 5px;
-    background-color: gray;
+    background-color:#F2F2F2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: hidden;
 }
 
 .circle
@@ -115,14 +106,24 @@ border-left: hidden;
 
 }
 
-.tddeux
-{
-    border: 1px solid black;
-    border-radius: 30px;
-
-}
-
 
 .flex-container {
     display: flex;
 }
+.flex-containerssecond
+{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: stretch;
+}
+.border
+{  
+    border: 2px solid #F2F2F2; 
+   border-radius: 20px;
+}
+figure
+{
+    color: #0065FC;
+}
+    
+  
