@@ -142,17 +142,24 @@ flex-direction: row;
 border: 2px solid #F2F2F2;
 border-radius: 20px;
 background-color: #F2F2F2;
-margin-right: 300px;
+
+
+
+
+
 
 
 }
 .images img
 {
 
-width: 150px;
+width: 200px;
 height: 100px;
      border: 2px solid white;
-     border-radius: 20px;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+    
+     
     
 
      
@@ -164,9 +171,12 @@ height: 100px;
     border: 2px solid white;
     border-radius: 20px;
     background-color: white;
-   margin: 8px;
+   margin: 10px;
+
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
+   
    
 
   
@@ -175,6 +185,27 @@ height: 100px;
 {
     display: flex;
     justify-items: start;
+    
+
+    
+}
+.marge
+{
+    
+    width: 1050px;
+    margin-left: 50px;
+    
+}
+.hébergement
+{
+    clear: right;
+float: left;
+width: 700px;
+}
+.pluspopulaire
+{
+float: right;
+width: 30S0px;
 }
 
     
