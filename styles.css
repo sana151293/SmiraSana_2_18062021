@@ -138,13 +138,11 @@ display: flex;
 align-items:flex-start;
 justify-content: start;
 flex-wrap: wrap;
+flex-direction: row;
 border: 2px solid #F2F2F2;
 border-radius: 20px;
 background-color: #F2F2F2;
-margin-right: 550px;
-
-
-
+margin-right: 300px;
 
 
 }
@@ -155,8 +153,10 @@ width: 150px;
 height: 100px;
      border: 2px solid white;
      border-radius: 20px;
-     display: flex;
-     justify-content: space-between;
+    
+
+     
+    
     
 }
 .images
@@ -164,7 +164,19 @@ height: 100px;
     border: 2px solid white;
     border-radius: 20px;
     background-color: white;
+   margin: 8px;
+   display: flex;
+   flex-direction: row;
+   
+
+  
 }
+.imagesdeux
+{
+    display: flex;
+    justify-items: start;
+}
+
     
    
     
