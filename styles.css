@@ -114,8 +114,11 @@ border: 1px solid #F2F2F2;
   display: inline-flex;
   align-items: center;
 
-   
-   
+}
+.texte
+{
+    padding-left : 15px;
+    padding-right : 15px;
 
 }
 figure
@@ -142,7 +145,11 @@ flex-direction: row;
 border: 2px solid #F2F2F2;
 border-radius: 20px;
 background-color: #F2F2F2;
-
+height: 450px;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
 
 
 
@@ -202,10 +209,58 @@ height: 100px;
 float: left;
 width: 700px;
 }
+.more 
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .pluspopulaire
 {
 float: right;
-width: 30S0px;
+width: 300px;
+}
+
+.flex-containerfourth
+{
+    display: flex;
+    
+flex-direction: column;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 2px solid #F2F2F2;
+border-radius: 20px;
+background-color: #F2F2F2;
+height: 450px;
+}
+
+.imagespopulaires img
+{
+    width: 90px;
+    height: 100px;
+         border: 2px solid white;
+         background-color: white;
+         border-top-left-radius: 20px;
+         border-bottom-left-radius: 20px;
+}
+.imagespopulaires
+{
+    border: 2px solid white;
+    border-radius: 20px;
+         background-color: white;
+         display: flex;
+         justify-content:center;
+         margin-bottom: 30px;
+         width: 250px;
+
+
+    
+}
+.hotelname
+{
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
     
