@@ -1,4 +1,4 @@
-.entête
+.entête 
 {
    display: flex;
    justify-content: flex-end;
@@ -8,7 +8,7 @@
 
 }
 
-.hébergements
+.hébergements /* Hébergement page */
 {
 color: #0065FC;
 margin-left: auto;
@@ -34,12 +34,12 @@ h1
 {
 font-weight: bold;
 }
-.second
+.second /* titre H2*/
 {
     line-height: 5px;
 }
 
-.saisie
+.saisie /* barre de saisie pour la recherche*/
 {
 color: #F2F2F2;
 border-color: #F2F2F2;
@@ -49,7 +49,7 @@ border-left: hidden;
 border: 1px solid #F2F2F2;
  }
 
-.bouton
+.bouton /* bouton recherche */
 {
     background-color:#0065FC ;
     color: white;
@@ -61,14 +61,16 @@ border: 1px solid #F2F2F2;
     outline: none;
 }
 
-.search-logo-container {
+.search-logo-container /* logo de position de la barre de recherche*/
+{
   display: flex;
   align-items: center;
   justify-content: center;
 
 }
 
-.search-logo {
+.search-logo /* logo position suite*/
+{
     height: 20px;
     padding: 5px;
     background-color:#F2F2F2;
@@ -80,7 +82,7 @@ border: 1px solid #F2F2F2;
     display: flex;
 }
 
-.circle
+.circle /* bulle bleu autour des icones*/
 {
     display: block;
     background-color:#DEEBFF ;
@@ -105,7 +107,7 @@ border: 1px solid #F2F2F2;
 
     
 }
-.border
+.border /* bordure des icones*/
 {  
     border: 2px solid #F2F2F2; 
    border-radius: 20px;
@@ -121,7 +123,7 @@ border: 1px solid #F2F2F2;
     padding-right : 15px;
 
 }
-figure
+figure /* icone*/
 {
     color: #0065FC;
     height: 2px;
@@ -129,19 +131,15 @@ figure
     display: flex;
     align-content: center;
 }
-.infologo
+.infologo /* logo i*/
 {
     color: #0065FC;
     
 }
-.flex-containerthird
+.flex-containerthird /* contenant partie héberhements*/
 {
 
-display: flex;
-align-items:flex-start;
-justify-content: start;
-flex-wrap: wrap;
-flex-direction: row;
+
 border: 2px solid #F2F2F2;
 border-radius: 20px;
 background-color: #F2F2F2;
@@ -150,22 +148,24 @@ padding-right: 10px;
 padding-left: 10px;
 padding-top: 10px;
 padding-bottom: 10px;
-
-
+display: block;
+align-items:flex-start;
+flex-wrap: wrap;
+position: relative;
 
 
 
 
 }
-.images img
+.images img /* image partie hébergements*/
 {
 
 width: 200px;
-height: 100px;
-     border: 2px solid white;
+max-height: 90px;
+     border: 2px solid white;;
      border-top-left-radius: 20px;
      border-top-right-radius: 20px;
-    
+
      
     
 
@@ -173,16 +173,18 @@ height: 100px;
     
     
 }
-.images
+.images /* images hébergements bis*/
 {
     border: 2px solid white;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 2px 2px 10px lightgray;
    margin: 10px;
-
    display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
+    flex-direction: column;
+
+   
+  
    
    
 
@@ -192,27 +194,32 @@ height: 100px;
 {
     display: flex;
     justify-items: start;
+   
+
     
 
     
 }
-.marge
+.marge /* page propriété*/
 {
     
     width: 1050px;
     margin-left: 50px;
     
 }
-.hébergement
+.hébergement /* parties hébergements propriétés*/
 {
     clear: right;
 float: left;
 width: 700px;
+
+
 }
 .more 
 {
     padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: bolder;
 }
 .pluspopulaire
 {
@@ -220,7 +227,7 @@ float: right;
 width: 300px;
 }
 
-.flex-containerfourth
+.flex-containerfourth /* parties logements populaires*/
 {
     display: flex;
     
@@ -234,8 +241,15 @@ border-radius: 20px;
 background-color: #F2F2F2;
 height: 450px;
 }
+.chartline /*icone à côté titre "les plus populaire"*/
+{
+    display: flex;
+    justify-content: flex-end;
 
-.imagespopulaires img
+   
+}
+
+.imagespopulaires img /* images logements populaires*/
 {
     width: 90px;
     height: 100px;
@@ -244,11 +258,12 @@ height: 450px;
          border-top-left-radius: 20px;
          border-bottom-left-radius: 20px;
 }
-.imagespopulaires
+.imagespopulaires /* images logements populaire bis*/
 {
     border: 2px solid white;
     border-radius: 20px;
          background-color: white;
+         box-shadow: 2px 2px 10px lightgray;
          display: flex;
          justify-content:center;
          margin-bottom: 30px;
@@ -257,10 +272,40 @@ height: 450px;
 
     
 }
-.hotelname
+.hotelname /* nom hôtel populaire propriétés*/
 {
     padding-top: 10px;
     padding-left: 10px;
+    
+
+}
+.fa /* étoile*/
+{
+    color:lightgray;
+   
+   
+   
+}
+.checked /*étoile coché*/
+{
+    color: #0065FC;
+
+   
+}
+.hotelnameone
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one 
+{
+    display: flex;
+    flex-direction: row;
+}
+.two 
+{
+    display: flex;
+    flex-direction: column;
 }
 
     
