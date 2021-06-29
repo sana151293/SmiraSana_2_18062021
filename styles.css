@@ -1,3 +1,8 @@
+.police 
+{ 
+font-size: 10px;
+}
+
 .entête 
 {
    display: flex;
@@ -160,7 +165,7 @@ position: relative;
 .images img /* image partie hébergements*/
 {
 
-width: 200px;
+width: 190px;
 max-height: 90px;
      border: 2px solid white;;
      border-top-left-radius: 20px;
@@ -179,6 +184,7 @@ max-height: 90px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 2px 10px lightgray;
+
    margin: 10px;
    display: flex;
     flex-direction: column;
@@ -266,7 +272,7 @@ height: 450px;
          box-shadow: 2px 2px 10px lightgray;
          display: flex;
          justify-content:center;
-         margin-bottom: 30px;
+         margin-bottom: 20px;
          width: 250px;
 
 
@@ -276,6 +282,7 @@ height: 450px;
 {
     padding-top: 10px;
     padding-left: 10px;
+
     
 
 }
@@ -305,6 +312,59 @@ height: 450px;
 .two 
 {
     display: flex;
+    flex-direction: column;
+}
+.imageactivitéone img
+{
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+       
+}
+.imageactivitéone
+{
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+         background-color: white;
+         box-shadow: 2px 2px 10px lightgray;
+         margin-bottom: 30px;
+         width: 250px;
+         border-bottom-width: 15px;
+
+}
+.imageactivitétwo img
+{ 
+    width: 230px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.imageactivitétwo
+{ 
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+         background-color: white;
+         box-shadow: 2px 2px 10px lightgray;
+         margin-bottom: 30px;
+         width: 230px;
+         border-bottom-width: 15px;
+         margin-left: 30px;
+         margin-right: 30px;
+}
+.imageactivité
+{
+    display: flex;
+    flex-direction: row;
+   
+    
+
+
+}
+.two
+{ 
+    display: inline;
     flex-direction: column;
 }
 
