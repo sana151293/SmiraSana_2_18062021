@@ -1,7 +1,4 @@
-.police 
-{ 
-font-size: 10px;
-}
+
 
 .entête 
 {
@@ -315,7 +312,7 @@ height: 450px;
     display: flex;
     flex-direction: column;
 }
-.imageactivitéone img
+.imageactivitéone img /*images de la partie activité*/
 {
     width: 250px;
     height: 250px;
@@ -323,7 +320,7 @@ height: 450px;
     border-top-right-radius: 20px; 
        
 }
-.imageactivitéone
+.imageactivitéone /* images de la partie activité grand format*/
 {
     border-bottom: 2px solid white;
     border-radius: 20px;
@@ -342,7 +339,7 @@ height: 450px;
     border-top-right-radius: 20px;
 }
 
-.imageactivitétwo
+.imageactivitétwo /* images de la partie activité petit format*/
 { 
     border-bottom: 2px solid white;
     border-radius: 20px;
@@ -363,7 +360,7 @@ height: 450px;
 
 
 }
-.two
+.two /* sens des images petit format de la partie activité*/
 { 
     display: inline;
     flex-direction: column;
@@ -371,14 +368,14 @@ height: 450px;
 
 
 
-.column
+.column /* propriété de la partie footer */
 {
     display: flex;
     flex-direction:column;
     padding-left: 90px;
     padding-right: 90px;
 }
-.footer
+.footer 
 {
     display: flex;
     flex-direction: row;
