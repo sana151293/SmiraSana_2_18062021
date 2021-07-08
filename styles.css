@@ -59,13 +59,14 @@ font-weight: bold;
 .second /* titre H2*/
 {
     line-height: 5px;
+    padding-bottom: 5px;
 }
 
 .saisie /* barre de saisie pour la recherche*/
 {
 color: #F2F2F2;
 border-color: #F2F2F2;
-height: 30px;
+height: 35px;
 border-collapse: collapse;
 border-left: hidden;
 border: 1px solid #F2F2F2;
@@ -77,16 +78,24 @@ border: 1px solid #F2F2F2;
     color: white;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    height: 30px;
+    height: 35px;
     border-collapse: collapse;
     border: hidden;
     outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .search-logo /* logo position suite*/
 {
-    height: 30px;
-    padding: 7px;
+    height: 35px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color:#F2F2F2;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -102,8 +111,8 @@ border: 1px solid #F2F2F2;
     display: block;
     background-color:#DEEBFF ;
     border-radius: 100%;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     margin: 0;
     display: flex;
     justify-content: space-around;
@@ -127,8 +136,8 @@ border: 1px solid #F2F2F2;
 }
 .border /* bordure des icones*/
 {  
-    border: 2px solid #F2F2F2; 
-   border-radius: 20px;
+    border: 3px solid #F2F2F2; 
+   border-radius: 30px;
   margin: 10px;
   display: inline-flex;
   align-items: center;
@@ -159,6 +168,7 @@ figure /* icone*/
 { 
     display: flex;
     flex-direction: row;
+    padding-bottom: 30px;
 }
 
 .flex-body 
@@ -179,15 +189,13 @@ figure /* icone*/
 border: 2px solid #F2F2F2;
 border-radius: 20px;
 background-color: #F2F2F2;
-
-max-width: 60%;
 padding: 20px;
   }
 
 .images img /* image partie hébergements*/
 {
 
-width: 190px;
+width: 210px;
 max-height: 90px;
      border: 2px solid white;;
      border-top-left-radius: 20px;
@@ -200,7 +208,7 @@ max-height: 90px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 2px 10px lightgray;
-   margin: 10px;
+   margin: 15px;
   
 }
 
@@ -208,10 +216,7 @@ max-height: 90px;
 {
     display: flex;
 flex-direction: column;
-padding-left: 20px;
-padding-right: 20px;
-padding-top: 20px;
-padding-bottom: 10px;
+padding: 20px;
 border: 2px solid #F2F2F2;
 border-radius: 20px;
 background-color: #F2F2F2 ;
@@ -247,7 +252,8 @@ background-color: #F2F2F2 ;
          box-shadow: 2px 2px 10px lightgray;
          display: flex;
          justify-content:start;
-         margin-bottom: 20px;
+         margin-bottom: 30px;
+         padding-right: 40px;
          
          
 
@@ -258,11 +264,15 @@ background-color: #F2F2F2 ;
 {
     padding-top: 10px;
     padding-left: 10px;
+  
    
 }
 .fa /* étoile*/
 {
     color:lightgray;
+    padding-top: 10px;
+ 
+    
    
    
    
@@ -277,6 +287,8 @@ background-color: #F2F2F2 ;
 {
     display: flex;
     padding-left: 10px;
+   
+    padding-top: 5px;
     display: flex;
    flex-direction: column;
    
@@ -285,13 +297,12 @@ background-color: #F2F2F2 ;
 {
     display: flex;
     flex-direction: row;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    
 }
 .imageactivitéone img /*images de la partie activité*/
 {
     width: 250px;
-    height: 250px;
+    height: 270px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px; 
        
@@ -308,7 +319,7 @@ background-color: #F2F2F2 ;
 .imageactivitétwo img
 { 
     width: 230px;
-    height: 100px;
+    height: 110px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -319,13 +330,15 @@ background-color: #F2F2F2 ;
     border-radius: 20px;
          background-color: white;
          box-shadow: 2px 2px 10px lightgray;
-         margin-bottom: 10px ;
+         margin-bottom: 20px ;
+         
         
 }
 .two /* sens des images petit format de la partie activité*/
 { 
     display: flex;
     flex-direction: column;
+    
 }
 .nameactivity
 {
@@ -359,6 +372,7 @@ background-color: #F2F2F2 ;
     margin-right:0;
     font-family: "raleway-regular", Arial, serif;
     font-size: 14px;
+
 
 }
 
