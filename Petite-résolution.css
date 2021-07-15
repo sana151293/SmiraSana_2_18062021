@@ -1,0 +1,104 @@
+@media screen and (max-width: 780px) 
+{
+  .entête
+  {
+    flex-direction: column;
+     
+     
+  }
+  .inscrire
+  {
+     margin-left: 100%;
+  }
+  .HA 
+  {
+    margin-left: initial;
+    justify-content: space-between;
+  }
+  .head
+  {
+      
+  }
+  .body
+  {
+      margin:0px;
+      
+  }
+  .flex-containerssecond
+  {
+     flex-direction: column;
+    
+  }
+  .mobilefiltre
+  {
+      flex-direction: row;
+      align-items: flex-start;
+      
+      
+  }
+ 
+  .flex-body-up
+  {
+      flex-direction: column-reverse;
+     
+  }
+  .imagedeux
+  {
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }
+  .images img 
+  {
+      width: 400px;
+      max-height: 120px;
+      
+  }
+  .first-child
+  {
+      border: unset;
+      background-color:initial ;
+      flex-direction: column;
+      
+  }
+  .flex-body-down > div
+  {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+     
+  }
+  .imageactivitéone img 
+  {
+      max-width: 230px;
+      height: 100px;
+  }
+  
+  .footer
+  {
+      flex-direction: column;
+      flex-wrap: wrap;
+      
+      
+  }
+  .column
+  {
+      
+  }
+  .flex-body
+  {
+      flex-direction: column;
+  }
+  .head
+  {
+      flex-direction: column;
+  }
+
+
+  
+
+}
