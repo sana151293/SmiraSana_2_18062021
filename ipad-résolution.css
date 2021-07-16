@@ -11,18 +11,69 @@
     
     background-color: white;
     flex-direction: row;
+    flex-wrap: nowrap;
     
   
+  }
+  .images img 
+  {
+      width: 200px;
   }
   .last-child
   {
       flex-direction: row;
 
   }
+  .imagespopulaires img 
+  {
+      width: 150px;
+      border-top-right-radius: 20px;
+  }
   .imagespopulaires
   {
       flex-direction: column;
       align-items: center;
-      flex-wrap: wrap;
+      padding-right: unset;
+      border-top-right-radius: 20px;
+      
   }
+  .chartline
+  {
+      margin-right: 60%;
+  }
+  .flex-containerssecond >div
+  {
+      flex-direction: column;
+
+  }
+  .flex-body-down > div 
+  {
+    flex-direction: row;
+   
+  }
+  .imageactivitéone img 
+  {
+    width: 230px;
+    height: 110px;
+  }
+  .imageactivitéone
+  {
+     
+  }
+  .footer 
+{
+    flex-direction: row;
+   background-color: #F2F2F2;
+}
+
+.column /* propriété de la partie footer */
+{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.h4
+{
+    flex-wrap: nowrap;
+}
 }

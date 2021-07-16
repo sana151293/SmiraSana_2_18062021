@@ -3,17 +3,22 @@
   .entête
   {
     flex-direction: column;
-     
+    
      
   }
   .inscrire
   {
-     margin-left: 100%;
+     margin-left: 90%;
   }
   .HA 
   {
+      padding-top: 20px;
     margin-left: initial;
     justify-content: space-between;
+  }
+  .second 
+  {
+     margin: 20px;
   }
   .head
   {
@@ -23,10 +28,16 @@
   {
       margin:0px;
       
+      
+  }
+  .flex-container 
+  {
+      margin: 20px;
   }
   .flex-containerssecond
   {
      flex-direction: column;
+     margin: 20px;
     
   }
   .mobilefiltre
@@ -35,6 +46,10 @@
       align-items: flex-start;
       
       
+  }
+  .logotexte 
+  {
+      margin: 20px;
   }
  
   .flex-body-up
@@ -64,6 +79,20 @@
       background-color:initial ;
       flex-direction: column;
       
+      
+  }
+  .imagesdeux
+  {
+      margin: 20px;
+      flex-direction: column;
+  }
+  .h4
+  {
+      margin: 20px;
+  }
+  .images img 
+  {
+      width: 300px;
   }
   .flex-body-down > div
   {
@@ -72,10 +101,23 @@
       align-content: center;
      
   }
+  .last-child
+  {
+      border-radius: unset;
+     
+  }
   .imageactivitéone img 
   {
       max-width: 230px;
       height: 100px;
+  }
+  .imageactivitéone
+  {
+      margin-bottom: 25px;
+  }
+  .imagespopulaires
+  {
+       margin: 20px;
   }
   
   .footer

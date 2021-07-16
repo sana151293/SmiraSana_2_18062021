@@ -17,11 +17,7 @@
     justify-content: space-between;
     gap: 60%;
 }
-.logoreservia
-{
-    max-height:10% ;
-    max-width:10%;
-}
+
 .entête 
 {
    display: flex;
@@ -311,7 +307,7 @@ background-color: #F2F2F2 ;
     padding-left: 10px;
    
     padding-top: 5px;
-    display: flex;
+   
    flex-direction: column;
    
 }
