@@ -24,11 +24,13 @@
   flex-direction: row;
    gap: 65%;
    margin-top: 10px;
-   margin: 40px;
+   margin: 2.5em;
    font-family: "raleway-regular", Arial, serif;
 
 
 }
+
+
 
 .hébergements /* Hébergement page */
 {
@@ -65,9 +67,9 @@ gap: 40%;
 }
 .body
 {
-    margin: 40px;
+    margin: 2.5em;
     font-family: "raleway-regular", Arial, serif;
-   font-size: 14px;
+   font-size: 1em;
 }
 
 h1
@@ -107,7 +109,7 @@ border: 1px solid #F2F2F2;
 
 .search-logo /* logo position suite*/
 {
-    height: 35px;
+    height: 2em;
     
     padding-left: 10px;
     padding-right: 10px;
@@ -128,8 +130,8 @@ border: 1px solid #F2F2F2;
     display: block;
     background-color:#DEEBFF ;
     border-radius: 100%;
-    height: 35px;
-    width: 35px;
+    height: 2em;
+    width: 2em;
     margin: 0;
     display: flex;
     justify-content: space-around;
@@ -146,7 +148,7 @@ border: 1px solid #F2F2F2;
 .flex-containerssecond > div 
 {
    
-  margin: 10px;
+  margin: 0.6em;
   display: inline-flex;
   align-items: center;
  
@@ -155,15 +157,15 @@ border: 1px solid #F2F2F2;
 {  
     border: 3px solid #F2F2F2; 
    border-radius: 30px;
-  margin: 10px;
+  margin: 0.6em;
   display: inline-flex;
   align-items: center;
  
 }
 .texte
 {
-    padding-left : 15px;
-    padding-right : 15px;
+    padding-left : 1em;
+    padding-right : 1em;
 
 }
 figure /* icone*/
@@ -206,14 +208,14 @@ figure /* icone*/
 border: 2px solid #F2F2F2;
 border-radius: 20px;
 background-color: #F2F2F2;
-padding: 20px;
+padding: 1.25em;
   }
 
 .images img /* image partie hébergements*/
 {
 
-width: 210px;
-max-height: 90px;
+width: 13em;
+max-height: 6em;
      border: 2px solid white;;
      border-top-left-radius: 20px;
      border-top-right-radius: 20px;
@@ -225,7 +227,7 @@ max-height: 90px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 2px 10px lightgray;
-   margin: 15px;
+   margin: 1em;
   
 }
 
@@ -233,7 +235,7 @@ max-height: 90px;
 {
     display: flex;
 flex-direction: column;
-padding: 20px;
+padding: 1.25em;
 border: 2px solid #F2F2F2;
 border-radius: 20px;
 background-color: #F2F2F2 ;
@@ -255,8 +257,8 @@ background-color: #F2F2F2 ;
 
 .imagespopulaires img /* images logements populaires*/
 {
-    width: 110px;
-    height: 110px;
+    width: 7em;
+    height: 7em;
          border: 2px solid white;
          background-color: white;
          border-top-left-radius: 20px;
@@ -270,8 +272,8 @@ background-color: #F2F2F2 ;
          box-shadow: 2px 2px 10px lightgray;
          display: flex;
          justify-content:start;
-         margin-bottom: 30px;
-         padding-right: 40px;
+         margin-bottom: 2em;
+         padding-right: 2.5em;
          
          
 
@@ -319,8 +321,8 @@ background-color: #F2F2F2 ;
 }
 .imageactivitéone img /*images de la partie activité*/
 {
-    width: 250px;
-    height: 270px;
+    width: 16em;
+    height: 17em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px; 
        
@@ -336,8 +338,8 @@ background-color: #F2F2F2 ;
 }
 .imageactivitétwo img
 { 
-    width: 230px;
-    height: 110px;
+    width: 15em;
+    height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -348,7 +350,7 @@ background-color: #F2F2F2 ;
     border-radius: 20px;
          background-color: white;
          box-shadow: 2px 2px 10px lightgray;
-         margin-bottom: 20px ;
+         margin-bottom: 1.5em ;
          
         
 }
@@ -398,8 +400,8 @@ background-color: #F2F2F2 ;
 {
     display: flex;
     flex-direction:column;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 7em;
+    padding-right: 7em;
 }
 
 

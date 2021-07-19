@@ -17,7 +17,7 @@
   }
   .images img 
   {
-      width: 200px;
+      width: 12em;
   }
   .last-child
   {
@@ -26,7 +26,7 @@
   }
   .imagespopulaires img 
   {
-      width: 150px;
+      width: 9em;
       border-top-right-radius: 20px;
   }
   .imagespopulaires
@@ -53,8 +53,8 @@
   }
   .imageactivitéone img 
   {
-    width: 230px;
-    height: 110px;
+    width: 14em;
+    height: 6.8em;
   }
   .imageactivitéone
   {
@@ -74,6 +74,6 @@
 }
 .h4
 {
-    flex-wrap: nowrap;
+    
 }
 }
