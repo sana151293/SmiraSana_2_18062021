@@ -15,6 +15,7 @@
       padding-top: 1.25em;
     margin-left: initial;
     justify-content: space-between;
+    
   }
   .second 
   {
@@ -27,6 +28,7 @@
   .body
   {
       margin:0px;
+      line-height: 1.3em;
       
       
   }
@@ -38,14 +40,19 @@
   {
      flex-direction: column;
      margin: 1em;
-    
+
+     
   }
   .mobilefiltre
   {
       flex-direction: row;
       align-items: flex-start;
       
-      
+    
+  }
+  .border
+  {
+      margin: 0.1em;
   }
   .logotexte 
   {
