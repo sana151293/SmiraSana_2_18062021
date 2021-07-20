@@ -19,22 +19,27 @@
   {
       width: 12em;
   }
+  .first-child
+  {
+      width: 100%;
+  }
   .last-child
   {
       flex-direction: row;
+      width: 100%;
 
   }
   .imagespopulaires img 
   {
       width: 9em;
-      border-top-right-radius: 20px;
+      border-top-right-radius: 1.25em;
   }
   .imagespopulaires
   {
       flex-direction: column;
       align-items: center;
       padding-right: unset;
-      border-top-right-radius: 20px;
+      border-top-right-radius: 1.25em;
       
   }
   .chartline
@@ -48,16 +53,23 @@
   }
   .flex-body-down > div 
   {
+    
     flex-direction: row;
+    justify-content: center;
    
-  }
-  .imageactivitéone img 
-  {
-    width: 14em;
-    height: 6.8em;
   }
   .imageactivitéone
   {
+      flex-direction: row;
+  }
+  .imageactivitéone img 
+  {
+    width: 20em;
+    height: 6.8em;
+  }
+  .two
+  {
+     flex-direction: row;
      
   }
   .footer 
@@ -69,8 +81,8 @@
 .column /* propriété de la partie footer */
 {
     
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 .h4
 {

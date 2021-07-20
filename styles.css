@@ -23,12 +23,13 @@
    display: flex;
   flex-direction: row;
    gap: 65%;
-   margin-top: 10px;
+   margin-top: 0.6em;
    margin: 2.5em;
    font-family: "raleway-regular", Arial, serif;
 
 
 }
+
 
 
 
@@ -38,11 +39,22 @@ color: #0065FC;
 
 
 }
+.Hebergement:link
+{
+    text-decoration: none;
+}
+.Hebergement:hover
+{
+
+    text-decoration:overline;
+    
+}
 .HA 
 {
     margin-left: 60%;
 display: flex;
 gap: 40%;
+
 
 
     
@@ -78,14 +90,14 @@ font-weight: bold;
 }
 .second /* titre H2*/
 {
-    padding-bottom: 5px;
+    padding-bottom:0.3em;
 }
 
 .saisie /* barre de saisie pour la recherche*/
 {
 color: #F2F2F2;
 border-color: #F2F2F2;
-height: 35px;
+height: 2em;
 border-collapse: collapse;
 border-left: hidden;
 border: 1px solid #F2F2F2;
@@ -97,24 +109,24 @@ border: 1px solid #F2F2F2;
     color: white;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    height: 35px;
+    height: 2em;
     border-collapse: collapse;
     border: hidden;
     outline: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
 }
 
 .search-logo /* logo position suite*/
 {
     height: 2em;
     
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    padding-top: 0.6em;
+    padding-bottom:0.6em ;
     background-color:#F2F2F2;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -180,14 +192,14 @@ figure /* icone*/
 .infologo /* logo i*/
 {
     color: #0065FC;
-    margin-right: 10px;
+    margin-right:0.6em ;
 
 }
 .logotexte
 { 
     display: flex;
     flex-direction: row;
-    padding-bottom: 30px;
+    padding-bottom: 1.8em;
 }
 
 .flex-body 
@@ -209,6 +221,7 @@ border: 2px solid #F2F2F2;
 border-radius: 20px;
 background-color: #F2F2F2;
 padding: 1.25em;
+width: 60%;
   }
 
 .images img /* image partie hébergements*/
@@ -239,6 +252,7 @@ padding: 1.25em;
 border: 2px solid #F2F2F2;
 border-radius: 20px;
 background-color: #F2F2F2 ;
+width: 35%;
 
 
 
@@ -282,15 +296,15 @@ background-color: #F2F2F2 ;
 }
 .hotelname /* nom hôtel populaire propriétés*/
 {
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top:0.6em ;
+    padding-left:0.6em ;
   
    
 }
 .fa /* étoile*/
 {
     color:lightgray;
-    padding-top: 10px;
+    padding-top:0.6em ;
  
     
    
@@ -306,9 +320,9 @@ background-color: #F2F2F2 ;
 .hotelnameone
 {
     display: flex;
-    padding-left: 10px;
+    padding-left:0.6em ;
    
-    padding-top: 5px;
+    padding-top: 0.3em;
    
    flex-direction: column;
    
@@ -322,7 +336,7 @@ background-color: #F2F2F2 ;
 .imageactivitéone img /*images de la partie activité*/
 {
     width: 16em;
-    height: 17em;
+    height: 19em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px; 
        
@@ -338,7 +352,7 @@ background-color: #F2F2F2 ;
 }
 .imageactivitétwo img
 { 
-    width: 15em;
+    width: 20em;
     height: 7em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -362,12 +376,16 @@ background-color: #F2F2F2 ;
 }
 .nameactivity
 {
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom:5px ;
+    padding-left: 0.6em;
+    padding-top: 0.8em;
+    padding-bottom:0.3em ;
 }
 
-
+.nameactivityone
+{
+    padding-left: 0.6em;
+    padding-top: 0.8em;
+}
 
 .flex-body-down > div
 {
@@ -390,7 +408,9 @@ background-color: #F2F2F2 ;
     margin-left: 0;
     margin-right:0;
     font-family: "raleway-regular", Arial, serif;
-    font-size: 14px;
+    font-size: 0.8em;
+    padding-bottom: 2em;
+    padding-top: 2em;
 
 
 }
