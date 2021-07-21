@@ -8,14 +8,27 @@
   }
   .inscrire
   {
-     margin-left: 90%;
+     margin-left: 80%;
+     padding-bottom: 1.5em;
+     
+  }
+  .hébergements
+  {
+      padding-right: 7em;
   }
   .HA 
   {
       padding-top: 1.25em;
     margin-left: initial;
-    justify-content: space-between;
-    
+    gap: 0em;
+
+  } 
+  .barre 
+  {
+      height: 0.1em;
+      max-width: 100%;
+      background-color: #F2F2F2;
+    margin-top: 1em;
   }
   .second 
   {

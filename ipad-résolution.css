@@ -5,6 +5,10 @@
         flex-direction: column-reverse;
            
     }
+    .hébergements
+    {
+        padding-right: 30em;
+    }
 
     .imagedeux
   {
@@ -31,8 +35,9 @@
   }
   .imagespopulaires img 
   {
-      width: 9em;
+      width: 10em;
       border-top-right-radius: 1.25em;
+      border-bottom-right-radius: 20px;
   }
   .imagespopulaires
   {
@@ -41,6 +46,11 @@
       padding-right: unset;
       border-top-right-radius: 1.25em;
       
+      
+  }
+  .starmostpopular
+  {
+      padding-bottom: 1em;
   }
   .chartline
   {
@@ -70,7 +80,12 @@
   .two
   {
      flex-direction: row;
+    justify-content: space-between;
      
+  }
+  .imageactivitétwo
+  {
+      
   }
   .footer 
 {

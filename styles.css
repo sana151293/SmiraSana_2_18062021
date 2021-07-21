@@ -30,6 +30,12 @@
 
 
 }
+.logoreservia
+{
+    width: 5em;
+    height: 3em;
+  
+}
 
 
 
@@ -156,6 +162,7 @@ border: 1px solid #F2F2F2;
   margin: 0.6em;
   display: inline-flex;
   align-items: center;
+  font-weight: bold;
  
 }
 .border /* bordure des icones*/
