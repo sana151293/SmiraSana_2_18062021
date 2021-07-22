@@ -10,7 +10,7 @@
 
 }
 
-.head
+.headtwo
 {
     display: flex;
     flex-direction: row-reverse;
@@ -19,7 +19,7 @@
     
 }
 
-.entête 
+.headone
 {
    display: flex;
   flex-direction: row;
@@ -67,7 +67,7 @@ gap: 40%;
     
     
 }
-.inscrire
+.inscribe
 {
     color:#0065FC ;
     font-weight: bold;
@@ -87,7 +87,7 @@ h1
 {
 font-weight: bold;
 }
-.second /* titre H2*/
+.bodyup/* titre H2*/
 {
     padding-bottom:0.3em;
 }
@@ -132,9 +132,6 @@ border: 1px solid #F2F2F2;
 
     border: hidden;
 }
-.flex-container {
-    display: flex;
-}
 
 .circle /* bulle bleu autour des icones*/
 {
@@ -164,6 +161,10 @@ border: 1px solid #F2F2F2;
   align-items: center;
   font-weight: bold;
  
+}
+.flex-container
+{
+    display: flex;
 }
 .border /* bordure des icones*/
 {  
@@ -269,7 +270,7 @@ width: 35%;
    
 }
 
-.imagespopulaires img /* images logements populaires*/
+.popular-hotel img /* images logements populaires*/
 {
     width: 7em;
     height: 8em;
@@ -278,7 +279,7 @@ width: 35%;
          border-top-left-radius: 20px;
          border-bottom-left-radius: 20px;
 }
-.imagespopulaires /* images logements populaire bis*/
+.popular-hotel /* images logements populaire bis*/
 {
     border: 2px solid white;
     border-radius: 20px;
@@ -341,7 +342,7 @@ width: 35%;
     padding-bottom: 0.5em;
     padding-top: 1.5em;
 }
-.imageactivitéone img /*images de la partie activité*/
+.imageactivityone img /*images de la partie activité*/
 {
     width: 16em;
     height: 19em;
@@ -349,7 +350,7 @@ width: 35%;
     border-top-right-radius: 20px; 
        
 }
-.imageactivitéone /* images de la partie activité grand format*/
+.imageactivityone /* images de la partie activité grand format*/
 {
     border-bottom: 2px solid white;
     border-radius: 20px;
@@ -358,7 +359,7 @@ width: 35%;
          
          
 }
-.imageactivitétwo img
+.imageactivitytwo img
 { 
     width: 20em;
     height: 7em;
@@ -366,7 +367,7 @@ width: 35%;
     border-top-right-radius: 20px;
 }
 
-.imageactivitétwo /* images de la partie activité petit format*/
+.imageactivitytwo /* images de la partie activité petit format*/
 { 
     border-bottom: 2px solid white;
     border-radius: 20px;
@@ -402,7 +403,7 @@ width: 35%;
     justify-content: space-between;
   
 }   
-.imagedeux
+.hotel-image
 {
     display: flex;
     flex-direction: row;

@@ -1,33 +1,25 @@
 @media screen and (max-width: 780px) 
 {
-  .entête
+  .headone
   {
     flex-direction: column;
     
-     
+     margin: 0;
+      align-content:center;
   }
-  .inscrire
+  .inscribe
   {
      margin-left: 80%;
      padding-bottom: 1.5em;
      
   }
-  .entête
-  {
-      margin: 0;
-      align-content:center;
-        
-  }
+
   .logoreservia
   { 
       width: 8em;
       height: 5em;
     
       padding-left: 2em;
-  }
-  .hébergements
-  {
-    
   }
   .HA 
   {
@@ -48,13 +40,9 @@
    
     
   }
-  .second 
+  .bodyup 
   {
      margin: 1.25em;
-  }
-  .head
-  {
-      
   }
   .body
   {
@@ -95,7 +83,7 @@
       flex-direction: column-reverse;
      
   }
-  .imagedeux
+  .hotel-image
   {
     
     background-color: white;
@@ -119,7 +107,7 @@
       
       
   }
-  .imagesdeux
+  .hotel-image
   {
       margin: 1em;
   }
@@ -144,16 +132,16 @@
       width: 100%;
      
   }
-  .imageactivitéone img 
+  .imageactivityone img 
   {
       width: 20em;
       height: 6.8em;
   }
-  .imageactivitéone
+  .imageactivityone
   {
       margin-bottom: 1.8em;
   }
-  .imagespopulaires
+  .popular-hotel
   {
        margin: 0.5em;
   }
@@ -174,7 +162,7 @@
   {
       flex-direction: column;
   }
-  .head
+  .headtwo
   {
       flex-direction: column;
   }

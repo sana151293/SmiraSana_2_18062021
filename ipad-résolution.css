@@ -1,5 +1,34 @@
 @media screen and (min-width:768px) and (max-width: 1024px)
  {
+
+    .barre 
+    {
+        margin-top: 1em;
+        height: 0.2em;
+        max-width: 100%;
+        background-color: #F2F2F2;
+      border-left: 26em solid blue;
+     
+      
+    }
+    .flex-container
+    {
+        justify-content: center;
+    }
+    .bodyup
+    {
+        flex-direction: row;
+    }
+    
+    .HA 
+  {
+      padding-top: 1.25em;
+    margin-left: initial;
+    gap: 0em;
+    justify-content: center;
+   
+    }
+
      .flex-body-up
     {
         flex-direction: column-reverse;
@@ -10,7 +39,7 @@
         padding-right: 30em;
     }
 
-    .imagedeux
+    .hotel-image
   {
     
     background-color: white;
@@ -33,13 +62,13 @@
       width: 100%;
 
   }
-  .imagespopulaires img 
+  .popular-hotel img 
   {
       width: 10em;
       border-top-right-radius: 1.25em;
       border-bottom-right-radius: 20px;
   }
-  .imagespopulaires
+  .popular-hotel
   {
       flex-direction: column;
       align-items: center;
@@ -68,11 +97,11 @@
     justify-content: center;
    
   }
-  .imageactivitéone
+  .imageactivityone
   {
       flex-direction: row;
   }
-  .imageactivitéone img 
+  .imageactivityone img 
   {
     width: 20em;
     height: 6.8em;
