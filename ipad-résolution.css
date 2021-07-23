@@ -1,15 +1,13 @@
 @media screen and (min-width:768px) and (max-width: 1024px)
  {
 
-    .barre 
+    .barre /* barre en dessous de la div HA*/
     {
         margin-top: 1em;
         height: 0.2em;
         max-width: 100%;
         background-color: #F2F2F2;
-      border-left: 26em solid blue;
-     
-      
+        border-left: 26em solid blue;
     }
     .flex-container
     {
@@ -19,117 +17,97 @@
     {
         flex-direction: row;
     }
-    
-    .HA 
-  {
-      padding-top: 1.25em;
-    margin-left: initial;
-    gap: 0em;
-    justify-content: center;
-   
-    }
-
-     .flex-body-up
+    .HA /* propriété de la div de l'en-tête comprenant l'hébergement et l'éctivité*/
     {
-        flex-direction: column-reverse;
-           
+        padding-top: 1.25em;
+        margin-left: initial;
+        gap: 0em;
+        justify-content: center;
+    }
+     .flex-body-up /* containers hébergements et les plus populaires*/
+    {
+        flex-direction: column-reverse;  
     }
     .hébergements
     {
         padding-right: 30em;
     }
-
-    .hotel-image
-  {
-    
-    background-color: white;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    
-  
-  }
-  .images img 
-  {
-      width: 12em;
-  }
-  .first-child
-  {
-      width: 100%;
-  }
-  .last-child
-  {
-      flex-direction: row;
-      width: 100%;
-
-  }
-  .popular-hotel img 
-  {
+    .hotel-image /* propriété des images de la partie hébergement*/
+    {
+        background-color: white;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .images img /* propriété des images de la partie hébergment*/
+    {
+        width: 12em;
+    }
+    .first-child /* partie hébergement */
+    {
+        width: 100%;
+    }
+    .last-child /* partie les plus populaires*/
+    {
+        flex-direction: row;
+        width: 100%;
+    }
+    .popular-hotel img /* propriété des images de la partie les plus populaires*/
+    {
       width: 10em;
       border-top-right-radius: 1.25em;
       border-bottom-right-radius: 20px;
-  }
-  .popular-hotel
-  {
+    }
+    .popular-hotel /* propriété des images de la partie les plus populaires*/
+    {
       flex-direction: column;
       align-items: center;
       padding-right: unset;
       border-top-right-radius: 1.25em;
-      
-      
-  }
-  .starmostpopular
-  {
+    }
+    .starmostpopular /* étoile de la partie les plus populaires*/
+    {
       padding-bottom: 1em;
-  }
-  .chartline
-  {
+    }
+    .chartline
+    {
       margin-right: 60%;
-  }
-  .flex-containerssecond >div
-  {
+    }
+    .flex-containerssecond >div /* partie des filtres*/
+    {
       flex-direction: column;
-
-  }
-  .flex-body-down > div 
-  {
-    
-    flex-direction: row;
-    justify-content: center;
-   
-  }
-  .imageactivityone
-  {
+    }
+    .flex-body-down > div /*partie des activités */
+    {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .imageactivityone /* images activité grand format*/
+    {
       flex-direction: row;
-  }
-  .imageactivityone img 
-  {
-    width: 20em;
-    height: 6.8em;
-  }
-  .two
-  {
-     flex-direction: row;
-    justify-content: space-between;
-     
-  }
-  .imageactivitétwo
-  {
-      
-  }
-  .footer 
-{
-    flex-direction: row;
-   background-color: #F2F2F2;
-}
+    }
+    .imageactivityone img 
+    {
+        width: 20em;
+        height: 6.8em;
+    }
+    .two
+    {
+        flex-direction: row;
+    }
+    .imageactivitytwo /* images activités petits formats*/
+    {
+        margin-left: 2em;
+        margin-right: 2em;
+    } 
+    .footer /*pied de page*/
+    {
+        flex-direction: row;
+        background-color: #F2F2F2;
+    }
+    .column /* propriété de la partie footer */
+    {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
 
-.column /* propriété de la partie footer */
-{
-    
-    padding-left: 3em;
-    padding-right: 3em;
-}
-.h4
-{
-    
-}
 }

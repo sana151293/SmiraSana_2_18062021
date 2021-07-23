@@ -9,99 +9,79 @@
     
 
 }
-
+.logo
+{ 
+    margin-left:2.5em;
+    position:relative;
+    top: 3.5em;
+    z-index: 1;
+}
 .headtwo
 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    gap: 60%;
-    
+    margin: 2em;
+    position: relative;
+    z-index: 10;
 }
-
 .headone
 {
    display: flex;
-  flex-direction: row;
+   flex-direction: row;
    gap: 70%;
-   
    margin: 2.5em;
    font-family: "raleway-regular", Arial, serif;
-
-
 }
 .logoreservia
 {
     width: 5em;
     height: 4em;
-  
 }
-
-
-
-
 .hébergements /* Hébergement page */
 {
-color: #0065FC;
-
- 
-
+    color: #0065FC;
+    
 }
 .HA 
 {
     margin-left: 60%;
-display: flex;
-gap: 40%;
-
-
-
-
-    
-   
+    display: flex;
+    gap: 40%;
 }
-
 .activités
 {
     color: black;
-   
-    
-    
 }
 .inscribe
 {
     color:#0065FC ;
     font-weight: bold;
     float:inline-end;
-   
-    
-
 }
 .body
 {
     margin: 2.5em;
     font-family: "raleway-regular", Arial, serif;
-   font-size: 1em;
+    font-size: 1em;
 }
-
 h1
 {
-font-weight: bold;
+    font-weight: bold;
 }
-.bodyup/* titre H2*/
+.bodyup/* partie haute du body*/
 {
     padding-bottom:0.3em;
 }
-
 .saisie /* barre de saisie pour la recherche*/
 {
-color: #F2F2F2;
-border-color: #F2F2F2;
-height: 2em;
-border-collapse: collapse;
-border-left: hidden;
-border: 1px solid #F2F2F2;
+    color: #F2F2F2;
+    border-color: #F2F2F2;
+    height: 2em;
+    border-collapse: collapse;
+    border-left: hidden;
+    border: 1px solid #F2F2F2;
  }
-
 .bouton /* bouton recherche */
 {
     background-color:#0065FC ;
@@ -117,11 +97,9 @@ border: 1px solid #F2F2F2;
     padding-right: 0.6em;
     padding-left: 0.6em;
 }
-
 .search-logo /* logo position suite*/
 {
     height: 2em;
-    
     padding-left: 0.6em;
     padding-right: 0.6em;
     padding-top: 0.6em;
@@ -129,10 +107,8 @@ border: 1px solid #F2F2F2;
     background-color:#F2F2F2;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-
     border: hidden;
 }
-
 .circle /* bulle bleu autour des icones*/
 {
     display: block;
@@ -144,23 +120,18 @@ border: 1px solid #F2F2F2;
     display: flex;
     justify-content: space-around;
     align-items:center;
-
 }
-
 .flex-containerssecond
 {
-  
     font-weight: bolder;
     align-items: center;    
 }
 .flex-containerssecond > div 
 {
-   
   margin: 0.6em;
   display: inline-flex;
   align-items: center;
   font-weight: bold;
- 
 }
 .flex-container
 {
@@ -168,23 +139,20 @@ border: 1px solid #F2F2F2;
 }
 .border /* bordure des icones*/
 {  
-    border: 3px solid #F2F2F2; 
-   border-radius: 30px;
+  border: 3px solid #F2F2F2; 
+  border-radius: 30px;
   margin: 0.6em;
   display: inline-flex;
   align-items: center;
- 
 }
 .texte
 {
     padding-left : 1em;
     padding-right : 1em;
-
 }
 figure /* icone*/
 {
     color: #0065FC;
-
 }
 .border:hover
 {
@@ -194,7 +162,6 @@ figure /* icone*/
 {
     color: #0065FC;
     margin-right:0.6em ;
-
 }
 .logotexte
 { 
@@ -202,38 +169,33 @@ figure /* icone*/
     flex-direction: row;
     padding-bottom: 1.8em;
 }
-
 .flex-body 
 {
     display: flex;
     flex-flow: column;
 }
-
   .flex-body-up
-  {
+{
     display : flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
-  }
+}
   .first-child
-  {
-border: 2px solid #F2F2F2;
-border-radius: 20px;
-background-color: #F2F2F2;
-padding: 1.25em;
-width: 60%;
-  }
-
+{
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    padding: 1.25em;
+    width: 60%;
+}
 .images img /* image partie hébergements*/
 {
-
-width: 13em;
-max-height: 6em;
+    background-size: cover;
+    width: 13em;
+    max-height: 6em;
      border: 2px solid white;;
      border-top-left-radius: 20px;
-     border-top-right-radius: 20px;
-    
+     border-top-right-radius: 20px; 
 }
 .images  /* images hébergements bis*/
 {
@@ -241,99 +203,70 @@ max-height: 6em;
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 2px 10px lightgray;
-   margin: 1em;
-  
+    margin: 1em;
 }
-
 .last-child /* parties logements populaires*/
 {
     display: flex;
-flex-direction: column;
-padding: 1.25em;
-border: 2px solid #F2F2F2;
-border-radius: 20px;
-background-color: #F2F2F2 ;
-width: 35%;
-
-
-
-
-
-
+    flex-direction: column;
+    padding: 1.25em;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    background-color: #F2F2F2 ;
+    width: 35%;
 }
 .chartline /*icone à côté titre "les plus populaire"*/
 {
     display: flex;
     justify-content:space-between;
-    
-
-   
 }
-
 .popular-hotel img /* images logements populaires*/
 {
+    background-size: cover;
     width: 7em;
     height: 8em;
-         border: 2px solid white;
-         background-color: white;
-         border-top-left-radius: 20px;
-         border-bottom-left-radius: 20px;
+    border: 2px solid white;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 .popular-hotel /* images logements populaire bis*/
 {
     border: 2px solid white;
     border-radius: 20px;
-         background-color: white;
-         box-shadow: 2px 2px 10px lightgray;
-         display: flex;
-         justify-content:start;
-         margin-bottom: 2em;
-         padding-right: 2.5em;
-         
-         
-
-
-    
+    background-color: white;
+    box-shadow: 2px 2px 10px lightgray;
+    display: flex;
+    justify-content:start;
+    margin-bottom: 2em;
+    padding-right: 2.5em;
 }
 .hotelname /* nom hôtel populaire propriétés*/
 {
     padding-top:0.6em ;
     padding-left:0.6em ;
-  
-   
 }
 .fa /* étoile*/
 {
     color:lightgray;
     padding-top:0.6em ;
- 
-    
-   
-   
-   
 }
 .checked /*étoile coché*/
 {
     color: #0065FC;
-
-   
 }
 .hotelnameone
 {
     display: flex;
     padding-left:0.6em ;
-   
     padding-top: 0.3em;
-   
-   flex-direction: column;
-   
+    flex-direction: column;
 }
 .one 
 {
     display: flex;
     flex-direction: row;
-    padding-bottom: 0.5em;
-    
+    padding-bottom: 0.5em;  
 }
 .starmostpopular
 {
@@ -344,76 +277,68 @@ width: 35%;
 }
 .imageactivityone img /*images de la partie activité*/
 {
-    width: 16em;
+    background-size: cover;
+    width: 18em;
     height: 19em;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px; 
-       
+    border-top-right-radius: 20px;   
 }
 .imageactivityone /* images de la partie activité grand format*/
 {
     border-bottom: 2px solid white;
     border-radius: 20px;
-         background-color: white;
-         box-shadow: 2px 2px 10px lightgray;
-         
-         
+    background-color: white;
+    box-shadow: 2px 2px 10px lightgray;
 }
 .imageactivitytwo img
 { 
-    width: 20em;
-    height: 7em;
+    background-size: cover;
+    width: 17em;
+    height: 7.5em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-
 .imageactivitytwo /* images de la partie activité petit format*/
 { 
     border-bottom: 2px solid white;
     border-radius: 20px;
-         background-color: white;
-         box-shadow: 2px 2px 10px lightgray;
-         margin-bottom: 1.5em ;
-         
-        
+    background-color: white;
+    box-shadow: 2px 2px 10px lightgray;
+    margin-bottom: 1.5em ;
 }
 .two /* sens des images petit format de la partie activité*/
 { 
     display: flex;
     flex-direction: column;
-    
 }
 .nameactivity
 {
     padding-left: 0.6em;
-    padding-top: 0.8em;
-    padding-bottom:0.3em ;
+    padding-top: 0.5em;
+    padding-bottom:0.5em ;
 }
-
 .nameactivityone
 {
     padding-left: 0.6em;
-    padding-top: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom:0.5em ;
 }
-
 .flex-body-down > div
 {
-
     display: flex;
     justify-content: space-between;
-  
+    align-items: flex-start; 
 }   
 .hotel-image
 {
     display: flex;
     flex-direction: row;
-
 }
 .footer 
 {
     display: flex;
     flex-direction: row;
-   background-color: #F2F2F2;
+    background-color: #F2F2F2;
     margin-left: 0;
     margin-right:0;
     font-family: "raleway-regular", Arial, serif;
@@ -421,11 +346,7 @@ width: 35%;
     padding-bottom: 2em;
     padding-top: 2em;
     line-height: 2em;
-
-
 }
-
-
 .column  /* propriété de la partie footer */
 {
     display: flex;
