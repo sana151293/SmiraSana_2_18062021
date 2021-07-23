@@ -192,7 +192,8 @@ figure /* icone*/
 {
     background-size: cover;
     width: 13em;
-    max-height: 6em;
+    height: 6em;
+    object-fit: cover; 
      border: 2px solid white;;
      border-top-left-radius: 20px;
      border-top-right-radius: 20px; 
@@ -225,6 +226,7 @@ figure /* icone*/
     background-size: cover;
     width: 7em;
     height: 8em;
+    object-fit: cover; 
     border: 2px solid white;
     background-color: white;
     border-top-left-radius: 20px;
@@ -280,6 +282,7 @@ figure /* icone*/
     background-size: cover;
     width: 18em;
     height: 19em;
+    object-fit: cover; 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;   
 }
@@ -295,6 +298,7 @@ figure /* icone*/
     background-size: cover;
     width: 17em;
     height: 7.5em;
+    object-fit: cover; 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
