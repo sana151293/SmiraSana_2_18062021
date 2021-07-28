@@ -1,17 +1,42 @@
 @media screen and (max-width: 780px) 
 {
+    .headmom
+    {
+       
+        display: flex;
+        flex-wrap: wrap;
+    
+        
+    }
+    .headmomtwo
+    {
+        flex-direction:row;
+        flex-wrap: wrap-reverse;
+    }
     .headchildone
      {
-         width: 70%;
+         width: 100%;
      }
      .headchildtwo
      {
-         display: flex;
-         flex-direction:column-reverse;
-         flex-wrap: wrap;
-        width: 30%;
+         width: 50%;
+        flex-wrap: wrap-reverse;
+        
      }
-
+     .headchildthree
+     {
+    width: 50%;
+     }
+     .headchildfour
+     {
+    width: 50%;
+     }
+    
+    
+     .hébergements
+     {
+         border-top: none;
+     }
    
     .logoreservia
     { 
@@ -39,14 +64,14 @@
     {
       margin: 1em;
     }
-    .flex-containerssecond
+    .flex-containerssecond 
     {
-     flex-direction: column;
+     
      margin: 1em;
     }
     .mobilefiltre
     {
-      flex-direction: row;
+      flex-direction: column;
       align-items: flex-start;
     }
     .border
@@ -68,13 +93,16 @@
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 1em;
+   
     }
     .images
     {
         width: 100%;
     }
-
+    .Hebergement
+    {
+        padding-top: 1.5em;
+    }
     
     .first-child
     {
@@ -82,6 +110,7 @@
       background-color:initial ;
       flex-direction: column;
       width: 100%;
+      padding: 0;
     }
     
     .h4
@@ -92,6 +121,7 @@
     .flex-body-down 
     {
       flex-direction: column;
+      margin: 0;
       
     }
     .last-child
@@ -107,6 +137,10 @@
     .imageactivityone img 
     {
         height: 9em;
+    }
+    .imageactivitytwo
+    {
+        margin-bottom:1.8em ;
     }
     .imageactivitytwo img 
     {
