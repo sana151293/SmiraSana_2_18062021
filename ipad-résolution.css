@@ -1,27 +1,14 @@
 @media screen and (min-width:768px) and (max-width: 1024px)
  {
-    .headchildone
+    .headmom
     {
-        width: 50%;
-    }
-    .headchildtwo
-    {
-        
-        display: flex;
-      flex-direction: column-reverse;
-        flex-wrap: wrap;
-        
        
-    }
-    .headchildtwo >div
-    {
-        width: 25%;
-    }
-    .headchildthree >div
-    {
         display: flex;
-        flex-direction: row;
+      
+    
+        
     }
+    
      .saisie
      {
          width: 30em;
@@ -29,6 +16,12 @@
      .mobilefiltre >div
      {
          margin: 0.5em;
+         
+     }
+     .flex-containerssecond>div
+     {
+         display: flex;
+         flex-direction: row;
      }
 
     .barre /* barre en dessous de la div HA*/
@@ -79,7 +72,7 @@
     }
     .popular-hotel img /* propriété des images de la partie les plus populaires*/
     {
-      width: 100%;
+     width: 11em;
       border-top-right-radius: 1.25em;
       border-bottom-right-radius: 20px;
     }
