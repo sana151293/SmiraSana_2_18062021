@@ -172,6 +172,7 @@ font-weight: bolder;
   margin: 0.7em;
   display: inline-flex;
   align-items: center;
+  cursor: pointer;
 }
 .texte
 {
@@ -367,13 +368,13 @@ figure /* icone*/
 }
 .nameactivity
 {
-    padding-left: 0.6em;
+    padding-left: 0.8em;
     padding-top: 0.5em;
     padding-bottom:0.5em ;
 }
 .nameactivityone
 {
-    padding-left: 0.6em;
+    padding-left: 0.8em;
     padding-top: 0.5em;
     padding-bottom:0.5em ;
 }
@@ -381,6 +382,7 @@ figure /* icone*/
 {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     height: auto;

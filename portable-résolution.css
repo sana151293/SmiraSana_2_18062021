@@ -106,9 +106,23 @@
     {
       margin: 1em;
     }
-    
-    .flex-body-down 
+    .Hébergements
     {
+        padding-left: 1em;
+        padding-top: 1em;
+    }
+    .more 
+    {
+        padding-left: 1em;
+    }
+    .Activités
+{
+    padding-left: 1em;
+}
+    .flex-body-down 
+
+    {
+        display: flex;
       flex-direction: column;
       margin: 0;
       
