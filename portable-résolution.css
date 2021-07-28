@@ -1,39 +1,23 @@
 @media screen and (max-width: 780px) 
 {
-    .logo /*logo réservia propriété portable*/
-    {
-        
-        margin: 0;
-    }
-    .headtwo
-    {
-        margin: 0;
-    }
-    .headone
-    {
-        flex-direction: column;
-        margin: 0;
-        align-content:center;
-    }
-    .inscribe
-    {
-        margin-left: 75%;
-        padding-bottom: 1.5em;
+    .headchildone
+     {
+         width: 70%;
      }
+     .headchildtwo
+     {
+         display: flex;
+         flex-direction:column-reverse;
+         flex-wrap: wrap;
+        width: 30%;
+     }
+
+   
     .logoreservia
     { 
       width: 8em;
       height: 5em;
-      padding-left: 2em;
     }
-    .HA 
-    {
-      padding-top: 1.25em;
-      margin-left: initial;
-      gap: 0em;
-      justify-content: center;
-      justify-content: space-around;
-    } 
     .barre 
     {
       margin-top: 1em;
@@ -82,13 +66,16 @@
     background-color: white;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
+    margin: 1em;
     }
-    .images img 
+    .images
     {
-      width: 25em;
-      max-height: 7.5em;
+        width: 100%;
     }
+
+    
     .first-child
     {
       border: unset;
@@ -96,42 +83,36 @@
       flex-direction: column;
       width: 100%;
     }
-    .hotel-image
-    {
-      margin: 1em;
-    }
+    
     .h4
     {
       margin: 1em;
     }
-    .images img 
-    {
-      width: 20em;
-    }
-    .flex-body-down > div
+    
+    .flex-body-down 
     {
       flex-direction: column;
-      flex-wrap: wrap;
-      align-content: center;
+      
     }
     .last-child
     {
       border-radius: unset;
       width: 100%;
     }
-    .imageactivityone img 
-    {
-      width: 20em;
-      height: 6.8em;
-    }
+    
     .imageactivityone 
     {
       margin-bottom: 1.8em;
     }
-    .imageactivitytwo img
+    .imageactivityone img 
     {
-      width:20em ;
+        height: 9em;
     }
+    .imageactivitytwo img 
+    {
+        height: 9em;
+    }
+    
     .popular-hotel
     {
        margin: 0.5em;

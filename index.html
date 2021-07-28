@@ -6,36 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" media="screen and (max-width: 780px)" href="Petite-résolution.css" />
+    <link rel="stylesheet" media="screen and (max-width: 780px)" href="portable-résolution.css" />
     <link rel="stylesheet" media="screen and (max-width: 1024px)" href="ipad-résolution.css" />
 
     <!--<div class="marge">-->
 
     <!--            <img src="file:///C:/Users/user_02/Documents/projet2/images/Reservia.svg" alt="logo"/> -->
 
-
-    <div class="logo"><img class="logoreservia" src="./images/logoreservia.png" alt="logo" /></div>
-    <!--images logo réservia-->
-    <div class="headtwo">
-        <!--div de la partie entête -->
-        <div class="inscribe">S'inscrire</div>
-
-
-        <div class="HA">
+    <div class="headmom">
+        <div class="headchildone">
+            <div class="logo"><img class="logoreservia" src="./images/logoreservia.png" alt="logo" /></div>
+            <!--images logo réservia-->
+        </div>
+        <div class="headchildtwo">
+            <!--div de la partie entête -->
             <div>
-                <div class="hébergements"> <a style="text-decoration:none" href="#Hebergement">Herbergements</a>
+                <div class="headchildthree">
+                    <div>
+                        <div class="hébergements"> <a style="text-decoration:none" href="#Hebergement">Herbergements</a>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div class="activités"> <a style="text-decoration:none" href="#Activités">Activités</a> </div>
+                    </div>
                 </div>
             </div>
             <div>
-                <div class="activités"> <a style="text-decoration:none" href="#Activités">Activités</a> </div>
+                <div class="inscribe">S'inscrire</div>
             </div>
 
+            <!--barre présente en dessous de la div HA-->
         </div>
-        <div class="barre"></div>
-        <!--barre présente en dessous de la div HA-->
+
     </div>
-
-
+    <div class="barre"></div>
 
 
 
@@ -51,7 +56,9 @@
             <h4> <strong>Trouvez votre hébergements pour des vacances de rêve</strong></h4>
 
 
-            <p> En plein centre ville ou en pleine nature</p>
+            <div class="sous-titre">
+                <p> En plein centre ville ou en pleine nature</p>
+            </div>
 
 
             <!--             <td class="third"> -->
@@ -70,7 +77,8 @@
                 <img class="search-logo" src="./images/position.png" alt="position logo" />
 
                 <div>
-                    <input type="search" class="saisie" /> <!-- barre de saisie de recherche-->
+                    <input type="search" class="saisie" placeholder="Marseille,France" />
+                    <!-- barre de saisie de recherche-->
                 </div>
                 <input type="submit" class="bouton" value="rechercher">
                 <!--bouton rechercher-->
@@ -104,7 +112,7 @@
                         <div class="texte">Familial</div>
                     </div>
                 </div>
-            </div>
+            
             <!--icone personne-->
 
 
@@ -274,7 +282,7 @@
                                 alt="logementpopulaire"></a>
                         <div class="hotelname">
                             <!--noms des hotels les plus populaires-->
-                            <strong> Hôtel le soleil du<br /> matin</strong> <br /> Nuit à partir de 128€
+                            <strong> Hôtel le soleil du matin</strong> <br /> Nuit à partir de 128€
                             <div class="starmostpopular">
                                 <!--étoile (systéme de notation des hôtels)-->
                                 <span class="fa fa-star checked w3-tiny"></span>
@@ -322,72 +330,69 @@
             </h4>
             <div class="flex-body-down">
                 <!--partie des activités -->
-                <div>
-
-                    <!--bloc images des activités-->
-                    <div class="imageactivityone">
-                        <!--images des activités -->
-                        <a href="activité1.html" target="_blank"><img src="./images/activité1.jpg"
-                                alt="imagesactivité"></a>
-
-                        <div class="nameactivityone"><strong>Vieux port</strong></div>
-                    </div>
 
 
+                <!--bloc images des activités-->
+                <div class="imageactivityone">
+                    <!--images des activités -->
+                    <a href="activité1.html" target="_blank"><img src="./images/activité1.jpg" alt="imagesactivité"></a>
 
-                    <div class="two">
-                        <!--activités petit format en colonne -->
-                        <div class="imageactivitytwo">
-                            <a href="activité2.html" target="_blank"> <img src="./images/activité2.jpg"
-                                    alt="imagesactivité"></a>
-
-                            <div class="nameactivity"><strong> Fort de Pomègues</strong></div>
-                        </div>
-
-
-
-                        <div class="imageactivitytwo">
-                            <a href="activité3.html" target="_blank"> <img src="./images/activité3.jpg"
-                                    alt="imagesactivité"></a>
-
-                            <div class="nameactivity"> <strong> Îles du Frioul</strong></div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="imageactivityone">
-                        <a href="activité4.html" target="_blank"> <img src="./images/activité4.jpg"
-                                alt="imagesactivité"></a>
-
-                        <div class="nameactivityone"><strong> Parc national des Calanques</strong></div>
-                    </div>
-
-
-
-                    <div class="two">
-                        <div class="imageactivitytwo">
-                            <a href="activité5.html" target="_blank"> <img src="./images/activité5.jpg"
-                                    alt="imagesactivité"></a>
-
-                            <div class="nameactivity"><strong> Notre-Dame-de-la-Garde</strong></div>
-                        </div>
-
-
-                        <div class="imageactivitytwo">
-                            <a href="activité6.html" target="_blank"> <img src="./images/activité6.jpg"
-                                    alt="imagesactivité"></a>
-
-                            <div class="nameactivity"><strong> Parc Longchamp</strong></div>
-                        </div>
-                    </div>
-
-
-
-
+                    <div class="nameactivityone"><strong>Vieux port</strong></div>
                 </div>
+
+
+
+                <div class="two">
+                    <!--activités petit format en colonne -->
+                    <div class="imageactivitytwo">
+                        <a href="activité2.html" target="_blank"> <img src="./images/activité2.jpg"
+                                alt="imagesactivité"></a>
+
+                        <div class="nameactivity"><strong> Fort de Pomègues</strong></div>
+                    </div>
+
+
+
+                    <div class="imageactivitytwo">
+                        <a href="activité3.html" target="_blank"> <img src="./images/activité3.jpg"
+                                alt="imagesactivité"></a>
+
+                        <div class="nameactivity"> <strong> Îles du Frioul</strong></div>
+                    </div>
+                </div>
+
+
+
+                <div class="imageactivityone">
+                    <a href="activité4.html" target="_blank"> <img src="./images/activité4.jpg"
+                            alt="imagesactivité"></a>
+
+                    <div class="nameactivityone"><strong> Parc national des Calanques</strong></div>
+                </div>
+
+
+
+                <div class="two">
+                    <div class="imageactivitytwo">
+                        <a href="activité5.html" target="_blank"> <img src="./images/activité5.jpg"
+                                alt="imagesactivité"></a>
+
+                        <div class="nameactivity"><strong> Notre-Dame-de-la-Garde</strong></div>
+                    </div>
+
+
+                    <div class="imageactivitytwo">
+                        <a href="activité6.html" target="_blank"> <img src="./images/activité6.jpg"
+                                alt="imagesactivité"></a>
+
+                        <div class="nameactivity"><strong> Parc Longchamp</strong></div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
+    </div>
     </div>
     <footer>
         <!--bas de page-->

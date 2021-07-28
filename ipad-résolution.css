@@ -1,5 +1,22 @@
 @media screen and (min-width:768px) and (max-width: 1024px)
  {
+     .headchildone
+     {
+         width: 80%;
+     }
+     .headchildtwo
+     {
+         display: flex;
+         flex-direction: row-reverse;
+         flex-wrap: wrap;
+        width: 20%;
+
+
+     }
+     .mobilefiltre >div
+     {
+         margin: 0.5em;
+     }
 
     .barre /* barre en dessous de la div HA*/
     {
@@ -9,6 +26,11 @@
         background-color: #F2F2F2;
         border-left: 26em solid blue;
     }
+    .texte
+    {
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+    }
     .flex-container
     {
         justify-content: center;
@@ -16,13 +38,6 @@
     .bodyup
     {
         flex-direction: row;
-    }
-    .HA /* propriété de la div de l'en-tête comprenant l'hébergement et l'éctivité*/
-    {
-        padding-top: 1.25em;
-        margin-left: initial;
-        gap: 0em;
-        justify-content: center;
     }
      .flex-body-up /* containers hébergements et les plus populaires*/
     {
@@ -38,10 +53,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
     }
-    .images img /* propriété des images de la partie hébergment*/
-    {
-        width: 12em;
-    }
+   
     .first-child /* partie hébergement */
     {
         width: 100%;
@@ -53,7 +65,7 @@
     }
     .popular-hotel img /* propriété des images de la partie les plus populaires*/
     {
-      width: 10em;
+      
       border-top-right-radius: 1.25em;
       border-bottom-right-radius: 20px;
     }
@@ -72,24 +84,21 @@
     {
       margin-right: 60%;
     }
-    .flex-containerssecond >div /* partie des filtres*/
-    {
-      flex-direction: column;
-    }
+    
     .flex-body-down > div /*partie des activités */
     {
         flex-direction: row;
         justify-content: center;
     }
+    .flex-body-down
+    {
+        align-items: center;
+    }
     .imageactivityone /* images activité grand format*/
     {
       flex-direction: row;
     }
-    .imageactivityone img 
-    {
-        width: 20em;
-        height: 6.8em;
-    }
+    
     .two
     {
         flex-direction: row;
