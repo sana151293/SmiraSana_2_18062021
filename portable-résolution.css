@@ -14,18 +14,24 @@
        display: flex;
         flex-direction:row;
         flex-wrap: wrap;
-        align-items: center;
-        
-
-        
-        
-       
-        
+        align-items: center;  
     }
     .headmom .first-child >div
     {
         width: 50%;
       
+    }
+    .headmom .first-child2
+    {
+        order: 1;
+    }
+    .headmom .first-child3
+    {
+        order: 0;
+    }
+    .headmom .first-child4
+    {
+        order: 0;
     }
     
      .hébergements

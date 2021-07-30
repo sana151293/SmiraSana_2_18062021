@@ -10,48 +10,37 @@
 
 }
 .headmom
-{
-    
-    margin: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-   
-}
-.headmomtwo
-{
-    display: flex;
-    flex-direction: row;
-    
-    
-}
-
-.headchildtwo 
-{
-   
- padding-right: 3em;
-    
-}
-
-.headchildtwo 
-{
-       padding-right: 3em;
-}
-.headchildthree 
-{
-   
-    padding-right: 3em;
-    
-}
-.headchildfour
-{
-    
-}
-
+    {
+       width: 100%;
+        background-color: none;
+    }
+    .headmom .first-child 
+    {
+       
+       display: flex;
+        flex-direction:row;
+        align-items: center;  
+    }
+    .headmom .first-child1
+    {
+        order: 0;
+    }
+    .headmom .first-child2
+    {
+        order: 4;
+    }
+    .headmom .first-child3
+    {
+        order: 2;
+    }
+    .headmom .first-child4
+    {
+        order: 3;
+    }
 
 .logoreservia
 {
+    
     width: 5em;
     height: 4em;
 }
@@ -70,9 +59,11 @@
 }
 .inscribe
 {
+    order: -1;
     color:#0065FC ;
     font-weight: bold;
-    
+    display: flex;
+   float: inline-end;
 }
 .sous-titre
 {
