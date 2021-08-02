@@ -9,7 +9,11 @@
     
 
 }
-    
+    html
+    {
+        overflow: auto;
+        
+    }
     .headmom
     {
       margin-right: 1.5em;
@@ -153,7 +157,7 @@ font-weight: bolder;
 }
 .flex-containerssecond
 {
-   width: 65%;
+   display: flex;
     align-items: center;    
 }
 .flex-containerssecond > div 
@@ -251,9 +255,11 @@ figure /* icone*/
 .chartline /*icone à côté titre "les plus populaire"*/
 {
     display: flex;
-    justify-content:space-between;
-    padding-bottom: 0.9em;
+    justify-content: space-between;
+    padding-bottom: 1em;
+   
 }
+
 .popular-hotel img /* images logements populaires*/
 {
     object-fit: cover; 
@@ -315,6 +321,7 @@ figure /* icone*/
 {
     padding-top: 1em;
     padding-bottom: 0.8em;
+    
    
     
 }

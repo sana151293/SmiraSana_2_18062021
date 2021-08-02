@@ -3,8 +3,6 @@
     .headmom
     {
        width: 100%;
-        display: flex;
-        flex-direction: column;
         margin: 0;
         
     }
@@ -61,6 +59,7 @@
     }
     .body
     {
+        width: 100%;
       margin:0;
       line-height: 1.3em;
     }
@@ -72,6 +71,7 @@
     {
      width: 100%;
      margin: 1em;
+     flex-wrap: wrap;
     }
     .mobilefiltre
     {
