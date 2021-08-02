@@ -1,212 +1,194 @@
 @media screen and (max-width: 780px) 
 {
-    .headmom
-    {
-       width: 100%;
-        margin: 0;
-        
-    }
-    .headmom .first-child 
-    {
-       width: 100%;
-       display: flex;
-        flex-direction:row;
-        flex-wrap: wrap;
-      
-    }
-    .headmom .first-child >div
-    {
-        width: 50%;
-      display: flex;
-      justify-content:center;
-    }
-    .headmom .first-child2
-    {
-        order: 0;
-    }
-    .headmom .first-child3
-    {
-        order: 1;
-    }
-    .headmom .first-child4
-    {
-        order: 0;
-        padding-left: 4em;
-       
-    }
-    
-     .hébergements
-     {
-         border-top: none;
-     }
+.headmom{
+    width: 100%;
+    margin: 0;
+}
+
+.headmom .first-child {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.headmom .first-child >div{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+}
+
+.headmom .first-child2{
+    order: 0;
+}
+
+.headmom .first-child3{
+    order: 1;
+}
+
+.headmom .first-child4{
+    order: 0;
+    padding-left: 4em;
+}
+
+.hébergements{
+    border-top: none;
+}
    
-    .logoreservia
-    { 
-      width: 8em;
-      height: 5em;
-    }
-    .barre 
-    {
-      margin-top: 0.5em;
-      height: 0.2em;
-      max-width: 100%;
-      background-color: #F2F2F2;
-      border-left: 13em solid blue;
-    }
-    .bodyup 
-    {
-     margin: 1.25em;
-    }
-    .body
-    {
-        width: 100%;
-      margin:0;
-      line-height: 1.3em;
-    }
-    .flex-container 
-    {
-      margin: 1em;
-    }
-    .flex-containerssecond 
-    {
-     width: 100%;
-     margin: 1em;
-     flex-wrap: wrap;
-    }
-    .mobilefiltre
-    {
-      flex-wrap: wrap;
-      
-    }
-    .mobilefiltre >div
-    {
-        margin-bottom: 1em;
-      margin-right: 0.5em;
-    }
+.logoreservia{ 
+    width: 8em;
+    height: 5em;
+}
+
+.barre {
+    margin-top: 0.5em;
+    height: 0.2em;
+    max-width: 100%;
+    background-color: #F2F2F2;
+    border-left: 13em solid blue;
+}
+
+.bodyup {
+    margin: 1.25em;
+}
+
+.body{
+    width: 100%;
+    margin:0;
+    line-height: 1.3em;
+}
+
+.flex-container {
+    margin: 1em;
+}
+
+.flex-containerssecond {
+    width: 100%;
+    margin: 1em;
+    flex-wrap: wrap;
+}
+
+.mobilefiltre{
+    flex-wrap: wrap;
+}
+
+.mobilefiltre >div{
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+}
     
-    .border
-    {
-      margin: 0.1em;
-    }
-    .logotexte 
-    {
-      margin: 1.25em;
-    }
-    .flex-body-up
-    {
-      flex-direction: column-reverse;
-    }
-    .hotel-image
-    {
+.border{
+ margin: 0.1em;
+}
+
+.logotexte {
+    margin: 1.25em;
+}
+
+.flex-body-up{
+    flex-direction: column-reverse;
+}
+
+.hotel-image{
     background-color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-   
-    }
-    .images
-    {
-        width: 90%;
-    }
-    .Hebergement
-    {
-        padding-top: 1.5em;
-    }
+}
     
-    .firstchild
-    {
-      border: unset;
-      background-color:initial ;
-      flex-direction: column;
-      width: 100%;
-      padding: 0;
-    }
+.images{
+    width: 90%;
+}
+
+.Hebergement{
+    padding-top: 1.5em;
+}
     
-    .h4
-    {
-      margin: 1em;
-    }
-    .Hébergements
-    {
-        padding-left: 1em;
-        padding-top: 1em;
-    }
-    .more 
-    {
-        padding-left: 1em;
-    }
-    .Activités
-{
+.firstchild{
+    border: unset;
+    background-color:initial ;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+    
+.h4{
+    margin: 1em;
+}
+
+.Hébergements{
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.more {
     padding-left: 1em;
 }
-    .flex-body-down 
 
-    {
-        display: flex;
-      flex-direction: column;
-      margin: 0;
-      
-    }
-    .flex-body-down>div
-    {
-        width: 90%;
-    }
-    .last-child
-    {
-      border-radius: unset;
-      width: 100%;
-    }
+.Activités{
+    padding-left: 1em;
+}
+
+.flex-body-down {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.flex-body-down>div{
+    width: 90%;
+}
+
+.last-child{
+    border-radius: unset;
+    width: 100%;
+}
     
-    .imageactivityone 
-    {
-      margin-bottom: 1.8em;
-      margin-right: 0;
-    }
-    .imageactivityone img 
-    {
-        height: 9em;
-    }
-    .imageactivitytwo
-    {
-        margin-bottom:1.8em ;
-        margin-right: 0;
-    }
-    .imageactivitytwo img 
-    {
-        height: 9em;
-    }
+.imageactivityone {
+    margin-bottom: 1.8em;
+    margin-right: 0;
+}
+
+.imageactivityone img {
+    height: 9em;
+}
+
+.imageactivitytwo{
+    margin-bottom:1.8em ;
+    margin-right: 0;
+}
+
+.imageactivitytwo img {
+    height: 9em;
+}
     
-    .popular-hotel
-    {
-       margin: 0.5em;
-    }
-    .footer
-    {
-        width: 100%;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-    .column
-    {
-        width: 100%;
-     padding-left: 2em; 
-     padding-top: 1em;
-    }
-    .flex-body
-    {
-      flex-direction: column;
-    }
-    .headtwo
-    {
-      flex-direction: column;
-    } 
-    .one 
-    {
-      padding-bottom: 0.8em;
-    }
+.popular-hotel{
+    margin: 0.5em;
+}
 
+.footer{
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
-  
+.column{
+    width: 100%;
+    padding-left: 2em; 
+    padding-top: 1em;
+}
+
+.flex-body{
+    flex-direction: column;
+}
+
+.headtwo{
+    flex-direction: column;
+} 
+
+.one {
+    padding-bottom: 0.8em;
+}
 
 }
