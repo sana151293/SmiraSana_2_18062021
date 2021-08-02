@@ -10,7 +10,7 @@
 
 }
     
-.headmom{
+.headmom/*en-tête */{
     margin-right: 1.5em;
     margin-left: 1em;
     margin-top: 0;
@@ -64,7 +64,7 @@
     float: inline-end;
 }
 
-.sous-titre{
+.subtitle{
     font-size: 0.8em;
 }
 
@@ -76,6 +76,9 @@
 
 h1{
     font-weight: bold;
+}
+h4{
+    padding-left: 1em;
 }
 
 .bodyup/* partie haute du body*/{
@@ -283,7 +286,7 @@ figure /* icone*/{
     flex-direction: column;
 }
 
-.one {
+.stars {
     display: flex;
     flex-direction: row;
     padding-bottom: 0.5em;  

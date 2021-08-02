@@ -67,7 +67,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
 }
-   
+.hotelname
+{
+    padding-left: 0;
+}
 .firstchild /* partie hébergement */{
     width: 100%;
 }

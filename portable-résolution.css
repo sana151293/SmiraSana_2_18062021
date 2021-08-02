@@ -67,6 +67,10 @@
     margin: 1em;
     flex-wrap: wrap;
 }
+.flex-containerssecond>div
+{
+    margin: 0;
+}
 
 .mobilefiltre{
     flex-wrap: wrap;
