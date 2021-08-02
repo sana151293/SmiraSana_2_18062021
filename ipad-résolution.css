@@ -37,6 +37,7 @@
         padding-left: 0.4em;
         padding-right: 0.4em;
     }
+    
     .flex-container
     {
         
@@ -61,7 +62,7 @@
         flex-wrap: nowrap;
     }
    
-    .first-child /* partie hébergement */
+    .firstchild /* partie hébergement */
     {
         width: 100%;
     }
