@@ -14,9 +14,7 @@
        display: flex;
         flex-direction:row;
         flex-wrap: wrap;
-        
-        
-       margin: 1em;
+      
     }
     .headmom .first-child >div
     {
@@ -35,6 +33,7 @@
     .headmom .first-child4
     {
         order: 0;
+        padding-left: 4em;
        
     }
     
@@ -71,7 +70,7 @@
     }
     .flex-containerssecond 
     {
-     
+     width: 100%;
      margin: 1em;
     }
     .mobilefiltre
@@ -108,7 +107,7 @@
     }
     .images
     {
-        width: 100%;
+        width: 90%;
     }
     .Hebergement
     {
@@ -149,6 +148,10 @@
       margin: 0;
       
     }
+    .flex-body-down>div
+    {
+        width: 90%;
+    }
     .last-child
     {
       border-radius: unset;
@@ -180,11 +183,13 @@
     }
     .footer
     {
+        width: 100%;
       flex-direction: column;
       flex-wrap: wrap;
     }
     .column
     {
+        width: 100%;
      padding-left: 2em; 
      padding-top: 1em;
     }

@@ -1,12 +1,27 @@
 @media screen and (min-width:768px) and (max-width: 1024px)
  {
-    .headmom
-    {
-       
-        display: flex;
-      
     
+    .headmom .first-child 
+    {
+      width: 100%;
+       display: flex;
+        flex-direction:row;
+        align-items: center; 
+        justify-content: space-between;
+        margin: 1em;
+         
+    }
+    .headmom .first-child4
+    {
         
+        padding-left: 10em;
+       
+    }
+   
+    .body
+    {
+        margin: 0;
+        border: 0;
     }
     
      .saisie
@@ -73,7 +88,7 @@
     }
     .popular-hotel img /* propriété des images de la partie les plus populaires*/
     {
-     width: 11em;
+     width: 100%;
       border-top-right-radius: 1.25em;
       border-bottom-right-radius: 20px;
     }
@@ -101,15 +116,29 @@
     .flex-body-down
     {
         align-items: center;
+        
+    }
+    .flex-body-down>div
+    {
+        width: 90%;
+        margin-left: 1em;
+        margin-right: 1em;
     }
     .imageactivityone /* images activité grand format*/
     {
       flex-direction: row;
+      margin-right: 0;
+      
     }
     
     .two
     {
         flex-direction: row;
+        width: 100%;
+    }
+    .two>div
+    {
+        width: 50%;
     }
     .imageactivitytwo /* images activités petits formats*/
     {
@@ -120,6 +149,7 @@
     {
         flex-direction: row;
         background-color: #F2F2F2;
+        flex-wrap: nowrap;
     }
     .column /* propriété de la partie footer */
     {
