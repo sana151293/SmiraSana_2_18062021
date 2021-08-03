@@ -5,14 +5,18 @@
     flex-direction: column;
 }
 
-.headmom .first-child {
+.headmom .first-child1 {
     
-    
+    padding-left: 2em;
    
+}
+.headmom .first-child2
+{
+    padding-left: 2em;
 }
 
 .headmom .first-child4{
-    padding-left: 6em;
+    padding-left: 5.5em;
 }
 
 .headmom .first-child3{
