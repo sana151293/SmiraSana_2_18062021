@@ -60,9 +60,7 @@
     flex-direction: column-reverse;  
 }
 
-.hébergements{
-    padding-right: 30em;
-}
+
 
 .hotel-image /* propriété des images de la partie hébergement*/{
     background-color: white;
