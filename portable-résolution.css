@@ -70,6 +70,7 @@
 
 .flex-containerssecond>div{
     margin: 0;
+    padding-bottom: 0.5em;
 }
 
 .mobilefiltre{
@@ -119,6 +120,7 @@
     
 h4{
     padding-left: 1em;
+    padding-top: 1em;
 }
 
 .Hébergements{
@@ -132,6 +134,10 @@ h4{
 
 .Activités{
     padding-left: 1em;
+}
+.chartline .first-child
+{
+    padding-top: 2em;
 }
 
 .flex-body-down {

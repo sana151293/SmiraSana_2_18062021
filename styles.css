@@ -141,7 +141,8 @@ h1{
 
 .flex-containerssecond{
     display: flex;
-    align-items: center;    
+    align-items: center; 
+    font-weight: bold;   
 }
 
 .flex-containerssecond > div {
@@ -238,6 +239,10 @@ figure /* icone*/{
     display: flex;
     justify-content: space-between;
     padding-bottom: 1em; 
+}
+.chartline .first-child 
+{
+    padding-top: 1em;
 }
 
 .popular-hotel img /* images logements populaires*/{
