@@ -368,7 +368,7 @@ figure /* icone*/{
 
 .flex-body-down>div{
     width: 25%;
-    margin: 1em;
+    margin-left: 1em;
 }
 
 .more{ /* div de la phrase "afficher plus " */
@@ -396,7 +396,7 @@ figure /* icone*/{
 }
 
 .column  /* propriété de la partie footer */{
-    width: 30%;
+    
     display: flex;
     flex-direction:column;
     padding-left: 9em;
