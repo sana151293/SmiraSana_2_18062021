@@ -35,12 +35,9 @@
     flex-direction: row;
 }
 
-.barre /* barre en dessous de la div HA*/{
-    margin-top: 1em;
-    height: 0.2em;
-    max-width: 100%;
-    background-color: #F2F2F2;
-    border-left: 26em solid blue;
+.body
+{
+    margin: 0;
 }
 
 .texte{
@@ -63,7 +60,7 @@
 
 
 .hotel-image /* propriété des images de la partie hébergement*/{
-    background-color: white;
+   
     flex-direction: row;
     flex-wrap: nowrap;
 }
@@ -75,11 +72,18 @@
 
 .firstchild /* partie hébergement */{
     width: 100%;
+    border-radius: 0;
 }
 
 .last-child /* partie les plus populaires*/{
     flex-direction: row;
     width: 100%;
+    background-color: white;
+    border: none;
+}
+.last-child >div
+{
+    margin: 0.5em;
 }
 
 .popular-hotel img /* propriété des images de la partie les plus populaires*/{
@@ -106,10 +110,11 @@
 
 .flex-body-down{
     align-items: center;
+    flex-direction: column;
 }
 
 .flex-body-down>div{
-    width: 90%;
+    width: 100%;
     margin-left: 1em;
     margin-right: 1em;
 }
