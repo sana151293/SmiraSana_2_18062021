@@ -47,6 +47,10 @@
     background-color: #F2F2F2;
     border-left: 13em solid blue;
 }
+.saisie 
+{
+    width: 10em;
+}
 
 .bodyup {
     margin: 1.25em;
@@ -184,7 +188,7 @@ h4{
 }
 
 .column{
-    width: 100%;
+   
     padding-left: 2em; 
     padding-top: 1em;
 }
