@@ -109,12 +109,12 @@
 }
 
 .flex-body-down{
-    align-items: center;
+   
     flex-direction: column;
 }
 
 .flex-body-down>div{
-    width: 100%;
+    width: 95%;
     margin-left: 1em;
     margin-right: 1em;
 }
