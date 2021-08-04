@@ -1,7 +1,7 @@
 @media screen and (min-width:768px) and (max-width: 1023px)
 {
 
-.headmom{
+.headmom{ /* container de l'entête */
     flex-direction: column;
 }
 
@@ -22,7 +22,7 @@
 
 }
 
-.saisie{
+.saisie{ /* barre pour saisir la recherche*/
     width: 30em;
 }
 
@@ -108,12 +108,12 @@
     justify-content: center;
 }
 
-.flex-body-down{
+.flex-body-down{ /* container de la partie activité*/
    
     flex-direction: column;
 }
 
-.flex-body-down>div{
+.flex-body-down>div{ /* container des images de la partie activité */
     width: 95%;
     margin-left: 1em;
     margin-right: 1em;
@@ -124,7 +124,7 @@
     margin-right: 0;
 }
     
-.two{
+.two{ /* container des images petit format de la partie activité*/
     flex-direction: row;
     width: 100%;
 }

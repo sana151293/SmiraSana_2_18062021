@@ -16,7 +16,7 @@
     margin-top: 0;
 }
 
-.headmom .first-child {
+.headmom .first-child { /* container des éléments de l'entête*/
     width: 100%;
     display: flex;
     flex-direction:row;
@@ -41,7 +41,7 @@
     order: 1;
 }
 
-.logoreservia{
+.logoreservia{ /* taille du logo réservia */
     width: 5em;
     height: 4em;
 }
@@ -139,7 +139,7 @@ h1{
     font-weight: bolder;
 }
 
-.flex-containerssecond{
+.flex-containerssecond{ /* container des filtres */
     display: flex;
     align-items: center; 
     font-weight: bold;   
@@ -187,18 +187,18 @@ figure /* icone*/{
     padding-bottom: 1.8em;
 }
 
-.flex-body {
+.flex-body { /* container des éléments du body (hébergement ; les plus populaires , activités (*/
     display: flex;
     flex-flow: column;
 }
 
-.flex-body-up{
+.flex-body-up{ /* container des éléments hébgergement et activité */
     display : flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.firstchild{
+.firstchild{ /* caontaine de la partie hébergement*/
     border: 2px solid #F2F2F2;
     border-radius: 20px;
     background-color: #F2F2F2;
@@ -289,19 +289,19 @@ figure /* icone*/{
     flex-direction: column;
 }
 
-.stars {
+.stars { /* étoiles de la partie hébergement*/
     display: flex;
     flex-direction: row;
     padding-bottom: 0.5em;  
 }
 
-.starmostpopular{
+.starmostpopular{ /* étoiles de la partie les plus populaire*/
     display: flex;
     flex-direction: row;
     padding-top: 3.5em;
 }
 
-.Activités{
+.Activités{ 
     padding-top: 1em;
     padding-bottom: 0.8em;  
 }
@@ -346,7 +346,7 @@ figure /* icone*/{
     justify-content: space-between;
 }
 
-.nameactivity{
+.nameactivity{ /* nom des activités */
     padding-left: 0.8em;
     padding-top: 0.5em;
     padding-bottom:0.5em ;
@@ -358,7 +358,7 @@ figure /* icone*/{
     padding-bottom:0.5em ;
 }
 
-.flex-body-down{
+.flex-body-down{ /* container de la partie activité */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -371,7 +371,7 @@ figure /* icone*/{
     margin: 1em;
 }
 
-.more{
+.more{ /* div de la phrase "afficher plus " */
     padding-top: 1.5em;
     padding-bottom: 0.8em;
 }
@@ -381,7 +381,7 @@ figure /* icone*/{
     flex-direction: row;
 }
 
-.footer {
+.footer { /* pied de page */
     width: 100%;
     display: flex;
     flex-direction: row;
