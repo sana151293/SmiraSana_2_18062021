@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) 
 {
-.headmom{
+.headmom{ /* entête */ 
     width: 100%;
     margin: 0;
 }
@@ -73,7 +73,7 @@
 }
 
 .flex-containerssecond>div{
-    margin: 0;
+   
     padding-bottom: 0.5em;
 }
 
