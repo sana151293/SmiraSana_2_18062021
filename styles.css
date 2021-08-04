@@ -1,4 +1,4 @@
-
+  
 @font-face {
     font-family: 'raleway-regular';
     src: url('raleway-regular-webfont.eot');
@@ -9,7 +9,7 @@
     
 
 }
-    
+ 
 .headmom/*en-tête */{
     margin-right: 1.5em;
     margin-left: 1em;
@@ -407,4 +407,4 @@ figure /* icone*/{
     font-weight: bolder;
 }
 
-
+} 
