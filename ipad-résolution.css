@@ -1,0 +1,154 @@
+@media screen and (min-width:768px) and (max-width: 1023px)
+{
+
+.headmom{ /* container de l'entête */
+    flex-direction: column;
+}
+
+.headmom .first-child1 {
+    padding-left: 2em;
+}
+
+.headmom .first-child2{
+    padding-left: 2em;
+}
+
+.headmom .first-child4{
+    padding-left: 5.5em;
+}
+
+.headmom .first-child3{
+    padding-left: 5em;
+
+}
+
+.saisie{ /* barre pour saisir la recherche*/
+    width: 30em;
+}
+
+.mobilefiltre >div{
+     margin: 0.5em;
+}
+
+.flex-containerssecond>div{
+    display: flex;
+    flex-direction: row;
+}
+
+.body
+{
+    margin: 0;
+}
+
+.texte{
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+} 
+
+.flex-container{
+    justify-content: center;
+}
+
+.bodyup{
+    flex-direction: row;
+}
+     
+.flex-body-up /* containers hébergements et les plus populaires*/{
+    flex-direction: column-reverse;  
+}
+
+
+
+.hotel-image /* propriété des images de la partie hébergement*/{
+   
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.hotelname
+{
+    padding-left: 0;
+}
+
+.firstchild /* partie hébergement */{
+    width: 100%;
+    border-radius: 0;
+}
+
+.last-child /* partie les plus populaires*/{
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    border: none;
+}
+.last-child >div
+{
+    margin: 0.5em;
+}
+
+.popular-hotel img /* propriété des images de la partie les plus populaires*/{
+    width: 100%;
+    border-top-right-radius: 1.25em;
+    border-bottom-right-radius: 20px;
+}
+
+.popular-hotel /* propriété des images de la partie les plus populaires*/{
+    flex-direction: column;
+    align-items: center;
+    padding-right: unset;
+    border-top-right-radius: 1.25em;
+}
+
+.starmostpopular /* étoile de la partie les plus populaires*/{
+    padding-bottom: 1em;
+}
+    
+.flex-body-down > div /*partie des activités */{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-body-down{ /* container de la partie activité*/
+   
+    flex-direction: column;
+}
+
+.flex-body-down>div{ /* container des images de la partie activité */
+    width: 95%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.imageactivityone /* images activité grand format*/{
+    flex-direction: row;
+    margin-right: 0;
+}
+    
+.two{ /* container des images petit format de la partie activité*/
+    flex-direction: row;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.two>div{
+     width: 50%;
+}
+
+.imageactivitytwo /* images activités petits formats*/{
+    margin-left: 2em;
+    margin-right: 2em;
+} 
+
+.footer /*pied de page*/{
+    flex-direction: row;
+    background-color: #F2F2F2;
+    flex-wrap: nowrap;
+}
+
+.column /* propriété de la partie footer */{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+}
