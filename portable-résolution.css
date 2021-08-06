@@ -1,32 +1,32 @@
 @media screen and (max-width: 767px) 
 {
-.headmom{ /* entête */ 
+.head-mom{ /* entête */ 
     width: 100%;
     margin: 0;
 }
 
-.headmom .first-child{
+.head-mom .first-child{
     width: 100%;
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
 }
 
-.headmom .first-child >div{
+.head-mom .first-child >div{
     width: 50%;
     display: flex;
     justify-content:center;
 }
 
-.headmom .first-child2{
+.head-mom .first-child2{
     order: 0;
 }
 
-.headmom .first-child3{
+.head-mom .first-child3{
     order: 1;
 }
 
-.headmom .first-child4{
+.head-mom .first-child4{
     order: 0;
     
 }
@@ -66,22 +66,22 @@
     margin: 1em;
 }
 
-.flex-containerssecond{
+.flex-containers-second{
    
     margin: 1em;
     flex-wrap: wrap;
 }
 
-.flex-containerssecond>div{
+.flex-containers-second>div{
    
     padding-bottom: 0.5em;
 }
 
-.mobilefiltre{
+.mobile-filtre{
     flex-wrap: wrap;
 }
 
-.mobilefiltre >div{
+.mobile-filtre >div{
     margin-bottom: 1em;
     margin-right: 0.5em;
 }
@@ -90,7 +90,7 @@
  margin: 0.1em;
 }
 
-.logotexte {
+.logo-texte {
     margin: 1.25em;
 }
 
@@ -159,21 +159,21 @@ h4{
     width: 100%;
 }
     
-.imageactivityone {
+.image-activity-one {
     margin-bottom: 1.8em;
     margin-right: 0;
 }
 
-.imageactivityone img {
+.image-activity-one img {
     height: 9em;
 }
 
-.imageactivitytwo{
+.image-activity-two{
     margin-bottom:1.8em ;
     margin-right: 0;
 }
 
-.imageactivitytwo img {
+.image-activity-two img {
     height: 9em;
 }
     
@@ -198,7 +198,7 @@ h4{
     flex-direction: column;
 }
 
-.headtwo{
+.head-two{
     flex-direction: column;
 } 
 
