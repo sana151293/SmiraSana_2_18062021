@@ -78,6 +78,7 @@
 
     .flex-containers-second>div{
     
+<<<<<<< HEAD
         padding-bottom: 0.5em;
     }
 
@@ -211,4 +212,22 @@
         padding-bottom: 0.8em;
     }
 
+=======
+    padding-left: 2em; 
+    padding-top: 1em;
+    padding-right: 0;
+}
+
+.flex-body{
+    flex-direction: column;
+}
+
+.head-two{
+    flex-direction: column;
+} 
+
+.one {
+    padding-bottom: 0.8em;
+}
+>>>>>>> new-branch
 }
