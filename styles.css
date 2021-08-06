@@ -181,7 +181,7 @@ figure /* icone*/{
     margin-right:0.6em ;
 }
 
-.logotexte{ 
+.logo-texte{ 
     display: flex;
     flex-direction: row;
     padding-bottom: 1.8em;
@@ -344,6 +344,7 @@ figure /* icone*/{
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
+    margin-right: 1.5em;
 }
 
 .name-activity{ /* nom des activités */

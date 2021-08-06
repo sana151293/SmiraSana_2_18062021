@@ -61,6 +61,10 @@
     margin:0;
     line-height: 1.3em;
 }
+.subtitle 
+{
+    margin-left: 1.5em;
+}
 
 .flex-container{
     margin: 1em;
@@ -125,6 +129,7 @@
 h4{
     padding-left: 1em;
     padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .Hébergements{
@@ -141,7 +146,7 @@ h4{
 }
 .chartline .first-child
 {
-    padding-top: 1em;
+    padding-top: 2em;
 }
 
 .flex-body-down {
