@@ -1,209 +1,214 @@
 @media screen and (max-width: 767px) 
 {
-.head-mom{ /* entête */ 
-    width: 100%;
-    margin: 0;
-}
+    .head-mom{ /* entête */ 
+        width: 100%;
+        margin: 0;
+    }
 
-.head-mom .first-child{
-    width: 100%;
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-}
+    .head-mom .first-child{
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
 
-.head-mom .first-child >div{
-    width: 50%;
-    display: flex;
-    justify-content:center;
-}
+    .head-mom .first-child >div{
+        width: 50%;
+        display: flex;
+        justify-content:center;
+    }
 
-.head-mom .first-child2{
-    order: 0;
-}
+    .head-mom .first-child2{
+        order: 0;
+    }
 
-.head-mom .first-child3{
-    order: 1;
-}
+    .head-mom .first-child3{
+        order: 1;
+    }
 
-.head-mom .first-child4{
-    order: 0;
+    .head-mom .first-child4{
+        order: 0;
+        
+    }
+
+    .hébergements{
+        border-top: none;
+    }
     
-}
+    .logoreservia{ 
+        width: 8em;
+        height: 5em;
+    }
 
-.hébergements{
-    border-top: none;
-}
-   
-.logoreservia{ 
-    width: 8em;
-    height: 5em;
-}
+    .barre {
+        margin-top: 0.5em;
+        height: 0.2em;
+        max-width: 100%;
+        background-color: #F2F2F2;
+        border-left: 13em solid blue;
+    }
+    .saisie 
+    {
+        width: 10em;
+    }
 
-.barre {
-    margin-top: 0.5em;
-    height: 0.2em;
-    max-width: 100%;
-    background-color: #F2F2F2;
-    border-left: 13em solid blue;
-}
-.saisie 
-{
-    width: 10em;
-}
+    .bodyup {
+        margin: 1.25em;
+    }
 
-.bodyup {
-    margin: 1.25em;
-}
+    .body{
+        width: 100%;
+        margin:0;
+        line-height: 1.3em;
+    }
+    .subtitle 
+    {
+        margin-left: 1.5em;
+    }
 
-.body{
-    width: 100%;
-    margin:0;
-    line-height: 1.3em;
-}
+    .flex-container{
+        margin: 1em;
+    }
 
-.flex-container{
-    margin: 1em;
-}
-
-.flex-containers-second{
-   
-    margin: 1em;
-    flex-wrap: wrap;
-}
-
-.flex-containers-second>div{
-   
-    padding-bottom: 0.5em;
-}
-
-.mobile-filtre{
-    flex-wrap: wrap;
-}
-
-.mobile-filtre >div{
-    margin-bottom: 1em;
-    margin-right: 0.5em;
-}
+    .flex-containers-second{
     
-.border{
- margin: 0.1em;
-}
+        margin: 1em;
+        flex-wrap: wrap;
+    }
 
-.logo-texte {
-    margin: 1.25em;
-}
-
-.flex-body-up{
-    flex-direction: column-reverse;
-}
-
-.hotel-image{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+    .flex-containers-second>div{
     
-.images{
-    width: 90%;
-}
+        padding-bottom: 0.5em;
+    }
 
-.Hebergement{
-    padding-top: 1.5em;
-}
-    
-.firstchild{
-    border: unset;
-    background-color:initial ;
-    flex-direction: column;
-    width: 100%;
-    padding: 0;
-}
-    
-h4{
-    padding-left: 1em;
-    padding-top: 1em;
-}
+    .mobile-filtre{
+        flex-wrap: wrap;
+    }
 
-.Hébergements{
-    padding-left: 1em;
-    padding-top: 1em;
-}
+    .mobile-filtre >div{
+        margin-bottom: 1em;
+        margin-right: 0.5em;
+    }
+        
+    .border{
+    margin: 0.1em;
+    }
 
-.more {
-    padding-left: 1.5em;
-}
+    .logo-texte {
+        margin: 1.25em;
+    }
 
-.Activités{
-    padding-left: 1em;
-}
-.chartline .first-child
-{
-    padding-top: 1em;
-}
+    .flex-body-up{
+        flex-direction: column-reverse;
+    }
 
-.flex-body-down {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
+    .hotel-image{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+        
+    .images{
+        width: 90%;
+    }
 
-.flex-body-down>div{
-    width: 90%;
-}
+    .Hebergement{
+        padding-top: 1.5em;
+    }
+        
+    .firstchild{
+        border: unset;
+        background-color:initial ;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+        
+    h4{
+        padding-left: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
 
-.last-child{
-    border-radius: unset;
-    width: 100%;
-}
-    
-.image-activity-one {
-    margin-bottom: 1.8em;
-    margin-right: 0;
-}
+    .Hébergements{
+        padding-left: 1em;
+        padding-top: 1em;
+    }
 
-.image-activity-one img {
-    height: 9em;
-}
+    .more {
+        padding-left: 1.5em;
+    }
 
-.image-activity-two{
-    margin-bottom:1.8em ;
-    margin-right: 0;
-}
+    .Activités{
+        padding-left: 1em;
+    }
+    .chartline .first-child
+    {
+        padding-top: 2em;
+    }
 
-.image-activity-two img {
-    height: 9em;
-}
-    
-.popular-hotel{
-    margin: 0.5em;
-}
+    .flex-body-down {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
 
-.footer{
-    width: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+    .flex-body-down>div{
+        width: 90%;
+    }
 
-.column{
-    
-    padding-left: 2em; 
-    padding-top: 1em;
-    padding-right: 0;
-}
+    .last-child{
+        border-radius: unset;
+        width: 100%;
+    }
+        
+    .image-activity-one {
+        margin-bottom: 1.8em;
+        margin-right: 0;
+    }
 
-.flex-body{
-    flex-direction: column;
-}
+    .image-activity-one img {
+        height: 9em;
+    }
 
-.head-two{
-    flex-direction: column;
-} 
+    .image-activity-two{
+        margin-bottom:1.8em ;
+        margin-right: 0;
+    }
 
-.one {
-    padding-bottom: 0.8em;
-}
+    .image-activity-two img {
+        height: 9em;
+    }
+        
+    .popular-hotel{
+        margin: 0.5em;
+    }
+
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .column{
+        
+        padding-left: 2em; 
+        padding-top: 1em;
+        padding-right: 0;
+    }
+
+    .flex-body{
+        flex-direction: column;
+    }
+
+    .head-two{
+        flex-direction: column;
+    } 
+
+    .one {
+        padding-bottom: 0.8em;
+    }
 
 }
