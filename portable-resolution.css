@@ -78,7 +78,6 @@
 
     .flex-containers-second>div{
     
-<<<<<<< HEAD
         padding-bottom: 0.5em;
     }
 
@@ -182,7 +181,24 @@
     .image-activity-two img {
         height: 9em;
     }
-        
+    .image-activity-three
+    {
+        margin-bottom:1.8em ;
+        margin-right: 0;
+    }
+    .image-activity-four
+    {
+        margin-bottom:1.8em ;
+        margin-right: 0;
+    } 
+    .image-activity-three img
+    {
+        height: 9em;
+    }
+    .image-activity-four img
+    {
+        height: 9em;
+    }
     .popular-hotel{
         margin: 0.5em;
     }
@@ -212,22 +228,4 @@
         padding-bottom: 0.8em;
     }
 
-=======
-    padding-left: 2em; 
-    padding-top: 1em;
-    padding-right: 0;
-}
-
-.flex-body{
-    flex-direction: column;
-}
-
-.head-two{
-    flex-direction: column;
-} 
-
-.one {
-    padding-bottom: 0.8em;
-}
->>>>>>> new-branch
 }

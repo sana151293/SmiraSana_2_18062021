@@ -137,6 +137,10 @@
         margin-left: 2em;
         margin-right: 2em;
     } 
+    .image-activity-four img
+    {
+    height: 9em;
+    }
 
     .footer /*pied de page*/{
         flex-direction: row;
